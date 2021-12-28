@@ -1,6 +1,7 @@
 import React from 'react';
 import pharmacy from './images/Pngtre.png'
 import nav from './images/premium-icon-NAV.png'
+import ico from './images/premium-icon.png'
 import s from './navbar.module.scss';
 import {NavLink} from "react-router-dom";
 
@@ -35,8 +36,10 @@ function Navbar(props) {
                             <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#navbarNav" aria-controls="navbarNav"
                                     aria-expanded="false"
-                                    aria-label="Toggle navigation">
-                                <span className="navbar-toggler-icon"></span>
+                                    aria-label="Toggle navigation"
+                                    style={{color: "#333", border: "1px solid #333"}}
+                            >
+                                <span className="navbar-toggler-icon"><span className={s.menu}>&equiv;</span></span>
                             </button>
                             <div className="collapse navbar-collapse" id="navbarNav">
                                 <ul className="navbar-nav">
@@ -64,8 +67,6 @@ function Navbar(props) {
                     </div>
                 </div>
             </div>
-
-
         </>
     );
 }
