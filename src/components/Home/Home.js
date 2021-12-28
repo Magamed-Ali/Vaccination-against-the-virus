@@ -2,6 +2,7 @@ import React from 'react';
 import HistoryPolyclinic from "../../button/Home/HistoryPolyclinic";
 import Carousel from "../../button/Home/Carousel";
 
+
 function Home(props) {
     return (
         <div>
