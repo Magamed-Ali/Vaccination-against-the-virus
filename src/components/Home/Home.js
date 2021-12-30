@@ -9,6 +9,7 @@ function Home(props) {
             <div className='container'>
                 <div className='row'>
                     <div className='col'>
+                        <span></span>
                         <HistoryPolyclinic/>
                         <Carousel/>
                     </div>
