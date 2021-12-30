@@ -26,9 +26,8 @@ function Navbar(props) {
             </div>
         </div>*/}
 
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row">
-
                     <div className={s.bb}>
                         <nav className="navbar navbar-expand-sm">
                             <a className="navbar-brand" href="#"> <img className={s.logo}
@@ -44,22 +43,18 @@ function Navbar(props) {
                             <div className="collapse navbar-collapse" id="navbarNav">
                                 <ul className="navbar-nav">
                                     <li className="nav-item">
-                                        <a className="nav-link active" aria-current="page" href="#">
-                                            <NavLink to="/home" className={s.navLink}> Home </NavLink></a>
+                                        <NavLink to="/home" className={s.navLink}> Home </NavLink>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">
-                                            <NavLink to="/form" className={s.navLink}> Form </NavLink></a>
+                                        <NavLink to="/form" className={s.navLink}> Form </NavLink>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">
-                                            <NavLink to="/vaccinated"
-                                                     className={s.navLink}> Vaccinated </NavLink></a>
+                                        <NavLink to="/vaccinated"
+                                                 className={s.navLink}> Vaccinated </NavLink>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">
-                                            <NavLink to="/historyOfVaccinated"
-                                                     className={s.navLink}> History</NavLink></a>
+                                        <NavLink to="/historyOfVaccinated"
+                                                 className={s.navLink}> History</NavLink>
                                     </li>
                                 </ul>
                             </div>
