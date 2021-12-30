@@ -13,14 +13,8 @@ function ContainerNavebar(props) {
             <Navbar/>
             <Routes>
                 <Route path='/form' element={<Form/>}/>
-            </Routes>
-            <Routes>
                 <Route path='/historyOfVaccinated' element={<HistoryOfVaccinated/>}/>
-            </Routes>
-            <Routes>
                 <Route path='/home' element={<Home/>}/>
-            </Routes>
-            <Routes>
                 <Route path='/vaccinated' element={<Vaccinated/>}/>
             </Routes>
 
