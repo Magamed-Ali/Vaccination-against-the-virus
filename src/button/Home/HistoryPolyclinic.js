@@ -1,5 +1,4 @@
 import React from 'react';
-import s from './historyPol.module.sass'
 
 
 function HistoryPolyclinic(props) {

@@ -2,30 +2,30 @@ import React from 'react';
 import photo1 from "./photo/imgonline-com1.jpg"
 import photo2 from "./photo/imgonline-com2.jpg"
 import photo3 from "./photo/imgonline-com3.jpg"
-import s from "./historyPol.module.sass"
+import style from "./historyPol.module.scss"
 
-function Carousel(props) {
+function Carousel() {
     return (<div>
-            <div className={s.corusel}>
+            <div className={style.carousel}>
                 <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
                             <img src={photo1} className="d-block w-100" alt=""/>
                             <div className="carousel-caption  d-sm-block">
-                                <button className={s.button}>кнопка</button>
+                                <button className={style.button}>кнопка</button>
                             </div>
                         </div>
                         <div className="carousel-item">
                             <img src={photo2} className="d-block w-100" alt="..."/>
                             <div className="carousel-caption  d-sm-block">
-                                <h5 className={s.hh1}>Метка первого слайда</h5>
+                                <h5 className={style.title}>Метка первого слайда</h5>
                                 <p>Некоторый репрезентативный заполнитель для первого слайда.</p>
                             </div>
                         </div>
                         <div className="carousel-item">
                             <img src={photo3} className="d-block w-100" alt="..."/>
                             <div className="carousel-caption  d-sm-block">
-                                <h5 className={s.hh1}>Метка первого слайда</h5>
+                                <h5 className={style.title}>Метка первого слайда</h5>
                                 <p>Некоторый репрезентативный заполнитель для первого слайда.</p>
                             </div>
                         </div>

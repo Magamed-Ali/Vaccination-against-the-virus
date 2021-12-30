@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from "./Navbar";
-import style from "../../index.module.scss";
 import {Route, Routes} from "react-router-dom";
 import Form from "../Form/Form";
 import HistoryOfVaccinated from "../HistoryOfVaccinated/HistoryOfVaccinated";
