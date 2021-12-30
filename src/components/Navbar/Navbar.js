@@ -1,7 +1,6 @@
 import React from 'react';
 import pharmacy from './images/Pngtre.png'
 import nav from './images/premium-icon-NAV.png'
-import ico from './images/premium-icon.png'
 import s from './navbar.module.scss';
 import {NavLink} from "react-router-dom";
 
