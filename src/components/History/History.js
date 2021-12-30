@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function HistoryOfVaccinated(props) {
+function History(props) {
     return (
         <div>
             <div className='container'>
@@ -17,4 +17,4 @@ function HistoryOfVaccinated(props) {
     );
 }
 
-export default HistoryOfVaccinated;
+export default History;
