@@ -1,10 +1,10 @@
 import React from 'react';
 import Navbar from "./Navbar";
 import {Route, Routes} from "react-router-dom";
-import Form from "../Form/Form";
-import History from "../History/History";
-import Home from "../Home/Home";
-import Vaccinated from "../Vaccinated/Vaccinated";
+import Form from "../pages/Form";
+import History from "../pages/History";
+import Home from "../pages/Home";
+import Vaccinated from "../pages/Vaccinated";
 
 function ContainerNavebar(props) {
     return (

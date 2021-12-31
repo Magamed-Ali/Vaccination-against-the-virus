@@ -1,6 +1,6 @@
 import React from 'react';
-import HistoryPolyclinic from "../../button/Home/HistoryPolyclinic";
-import Carousel from "../../button/Home/Carousel";
+import HistoryPolyclinic from "../shared/button/Home/HistoryPolyclinic";
+import Carousel from "../shared/button/Home/Carousel";
 
 
 function Home(props) {
