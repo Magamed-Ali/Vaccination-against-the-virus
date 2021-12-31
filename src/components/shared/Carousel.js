@@ -1,8 +1,8 @@
 import React from 'react';
-import photo1 from "./photo/imgonline-com1.jpg"
-import photo2 from "./photo/imgonline-com2.jpg"
-import photo3 from "./photo/imgonline-com3.jpg"
-import style from "./historyPol.module.scss"
+import photo1 from "../../assets/images/imgonline-com1.jpg"
+import photo2 from "../../assets/images/imgonline-com2.jpg"
+import photo3 from "../../assets/images/imgonline-com3.jpg"
+import style from "../../styles/main.module.scss"
 
 function Carousel() {
     return (<div>

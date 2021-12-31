@@ -1,6 +1,6 @@
 import React from 'react';
-import pharmacy from './images/Pngtre.png';
-import style from './navbar.module.scss';
+import pharmacy from '../../assets/images/Pngtre.png';
+import style from '../../styles/main.module.scss';
 import {NavLink} from "react-router-dom";
 
 

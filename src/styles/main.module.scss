@@ -5,3 +5,55 @@ body {
 .appWrapper{
 
 }
+$color1: #e31717;
+
+.title {
+  width: 100%;
+  max-height: 900px;
+  margin-bottom: 150px;
+  color: $color1;
+}
+
+.carousel{
+  width: 100%;
+  position: relative;
+}
+
+.button {
+  position: absolute;
+  top: -80%;
+  left: -10%;
+}
+a {
+  font-size: 24px;
+  color: rgba(56, 76, 96, 0.88);
+}
+.logo {
+  max-width: 100px;
+  margin-left: 30px;
+  margin-right: 5px;
+}
+.navLink {
+  text-decoration: none;
+  padding: 0 15px 0 15px ;
+}
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.navbarNav {
+  text-align: center;
+}
+.navItem{
+  color: rgba(1, 23, 23, 0.54);
+}
+.main_box{
+  width: 100%;
+  height: auto;
+  background: rgba(70, 75, 75, 0.4);
+
+}
+.menu{
+  padding-top: -40px;
+  font-size: 24px;
+}
