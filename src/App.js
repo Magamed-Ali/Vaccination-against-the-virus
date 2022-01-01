@@ -1,12 +1,11 @@
 import React from 'react';
-import ContainerNavebar from "./components/Navbar/ContainerNavebar";
 
 
 function App() {
 
     return (
-        <div>
-            <ContainerNavebar/>
+        <div style={{margin: "50px", textAlign: "center", fontSize: "50px"}}>
+            Скоро здесь будет сайт
         </div>
 
     );
