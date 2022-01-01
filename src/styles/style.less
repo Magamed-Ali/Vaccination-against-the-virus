@@ -1,3 +1,58 @@
-.one{
-  background: blue;
+@import "variables";
+* { margin: 0; padding: 0; }
+
+
+.topBar{
+  .d-flex();
+  padding: 15px 65px 15px 65px;
+  color: @block-background;
+  background: @block-color;
+  font-size: 16px;
+  .fovicoinRight i{
+    padding-left: 18px;
+  }
+  .favicoinLeft i{
+    padding-right: 8px;
+  }
+  .favicoinLeft span{
+    padding-right: 14px;
+  }
 }
+
+.headerNav{
+  background: @base-hover;
+  padding: 10px 65px 10px 65px;
+  color: @block-background;
+  vertical-align: middle;
+  .headerText {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 20px 20px;
+  }
+  .navButton button{
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    position: relative;
+    background-color: @secondaryBtn;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 17px 30px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    text-transform: uppercase;
+    border-radius: 6px;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 0 3px 24px rgb(0 0 0 / 10%);
+  }
+}
+

@@ -1,12 +1,13 @@
 import React from 'react';
-import './styles/style.less'
+import s from './styles/style.less'
+import Header from "./components/shared/header/Header";
 
 
 function App() {
 
     return (
-        <div className="one">
-            Скоро здесь будет сайт
+        <div>
+            <Header/>
         </div>
 
     );
