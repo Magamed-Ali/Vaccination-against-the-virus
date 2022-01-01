@@ -1,10 +1,11 @@
 import React from 'react';
+import './styles/style.less'
 
 
 function App() {
 
     return (
-        <div style={{margin: "50px", textAlign: "center", fontSize: "50px"}}>
+        <div className="one">
             Скоро здесь будет сайт
         </div>
 
