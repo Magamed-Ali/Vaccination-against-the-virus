@@ -1,14 +1,12 @@
 import React from 'react';
-import Carousel from "../shared/Carousel";
 
 
-function Home(props) {
+function Home() {
     return (
         <div>
             <div className='container'>
                 <div className='row'>
                     <div className='col'>
-                        <Carousel/>
                     </div>
                 </div>
             </div>

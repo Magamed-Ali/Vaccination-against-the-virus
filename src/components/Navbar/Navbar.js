@@ -1,29 +1,13 @@
 import React from 'react';
 import pharmacy from '../../assets/images/Pngtre.png';
-import style from '../../styles/main.module.scss';
+import style from '../../styles/style.module.less';
 import {NavLink} from "react-router-dom";
 
 
 function Navbar(props) {
 
-
     return (
         <>
-            {/*<div className={s.nav}>
-            <div>
-                <NavLink to="/home">Home</NavLink>
-            </div>
-            <div>
-                <NavLink to="/form">Form</NavLink>
-            </div>
-            <div>
-                <NavLink to="/vaccinated">Vaccinated</NavLink>
-            </div>
-            <div>
-                <NavLink to="/historyOfVaccinated">HistoryOfVac-ed</NavLink>
-            </div>
-        </div>*/}
-
             <div className="container-fluid">
                 <div className="row">
                     <div className={style.main_box}>

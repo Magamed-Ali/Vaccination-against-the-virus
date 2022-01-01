@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles/main.module.scss';
+import './styles/style.module.less';
 import App from './App';
 import {BrowserRouter} from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
