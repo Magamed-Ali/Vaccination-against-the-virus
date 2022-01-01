@@ -1,11 +1,13 @@
 import React from 'react';
+import s from './styles/style.less'
+import Header from "./components/shared/header/Header";
 
 
 function App() {
 
     return (
-        <div style={{margin: "50px", textAlign: "center", fontSize: "50px"}}>
-            Скоро здесь будет сайт
+        <div>
+            <Header/>
         </div>
 
     );
