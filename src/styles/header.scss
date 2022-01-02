@@ -1,7 +1,6 @@
-@import "variables";
 
 .top-bar-wrapper {
-  background: $b-collor;
+  background: $b-color;
 }
 
 .top-bar {
@@ -96,7 +95,7 @@
 
       &:hover{
         transition: 0.5s;
-        background: $b-collor;
+        background: $b-color;
         color: $color-fff;
 
       }
