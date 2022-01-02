@@ -1,6 +1,10 @@
+body{
+  height: 100%;
+}
+
 
 .top-bar-wrapper {
-  background: $b-color;
+  background: $background-color;
 }
 
 .top-bar {
@@ -8,7 +12,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 0;
-  color: $color-fff;
+  color: $white;
 
   &__info {
     display: flex;
@@ -59,7 +63,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: $color-fff;
+  color: $white;
 
   &__logo {
     width: 190px;
@@ -91,12 +95,13 @@
 
     &__button {
       background-color: #00acb1;
-      color: $color-fff;
+      color: $white;
+      text-transform: uppercase;
 
-      &:hover{
+      &:hover {
         transition: 0.5s;
-        background: $b-color;
-        color: $color-fff;
+        background: $background-color;
+        color: $white;
 
       }
 
@@ -104,4 +109,58 @@
 
   }
 
+}
+
+.container-hed {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  background-color: rgba(206, 161, 137, 0.53);
+  text-align: center;
+  color: $white;
+
+
+  &__header {
+
+    &__title{
+      padding: 70px 0 50px 0;
+      h1 {
+        font-size: 55px;
+        font-weight: 500;
+      }
+
+    }
+    &__btn {
+      display: flex;
+      justify-content: center;
+      padding: 50px 0 50px 0;
+
+      &__left .btn {
+        background-color: #00acb1;
+        color: $white;
+        margin-right: 6px;
+
+        &:hover {
+          transition: 0.5s;
+          background: $background-color;
+          color: $white;
+        }
+      }
+      &__right .btn {
+        background-color: $white;
+        color: $black-btn;
+        margin-left: 6px;
+
+        &:hover {
+          transition: 0.5s;
+          background: $background-color;
+          color: $white;
+        }
+      }
+    }
+
+  }
 }
