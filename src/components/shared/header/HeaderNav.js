@@ -1,33 +1,32 @@
 import React from 'react';
 import logo from '../../../assets/images/logo-white.png';
-import styles from '../../../styles/style.less';
 
-function HeaderNav(props) {
+
+function HeaderNav() {
     return (
-        <div className={styles.headerNav}>
-            <div className="container-fluid ">
-                <div className="row">
-                    <div className="col ">
-                        <img src={logo}></img>
+        <div className="container-fluid nav-bar-wrapper">
+            <div className="container">
+                <div className="nav-bar">
+                    <div className="nav-bar__logo">
+                        <img src={logo} alt="logo"/>
                     </div>
-                    <div className="col">
-                        <div className={styles.headerText}>
-                            <div>HOME</div>
-                            <div>BLOG</div>
-                            <div>DOCTORS</div>
-                            <div>CONTACT</div>
-                        </div>
-
+                    <div className="nav-bar__menu">
+                        <ul>
+                            <li>Home</li>
+                            <li>Form</li>
+                            <li>Vaccinated</li>
+                            <li>History</li>
+                        </ul>
                     </div>
-                    <div className="col text-end ">
-                        <div className={styles.navButton}>
-                            <button>FIND A DOCTOR</button>
-                        </div>
+                    <div className="nav-bar__btn">
+                        <button className="nav-bar__btn__button btn">Find A Doctor</button>
                     </div>
                 </div>
             </div>
 
         </div>
+
+
     );
 }
 
