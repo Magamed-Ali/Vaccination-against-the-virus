@@ -1,0 +1,45 @@
+
+.top-bar-wrapper {
+  background: #005963;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  color: #ffffff;
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__mail {
+
+    margin-right: 24px;
+
+    i {
+      margin-right: 10px;
+    }
+  }
+
+  &__address {
+
+    i {
+      margin-right: 10px;
+    }
+
+  }
+  &__social-links {
+    i {
+      margin-right: 24px;
+    }
+    i:last-child {
+      margin-right: 0;
+    }
+
+  }
+
+}
