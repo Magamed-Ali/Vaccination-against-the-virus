@@ -8,7 +8,7 @@ function ContainerHead() {
             <div className="container container-hed__header">
                 <div className="container-hed__header__title">
                     <h6>Markets & Resources</h6>
-                    <h1>Find The Best </h1>
+                    <h1>Find The Best</h1>
                     <h1> Doctor Around You</h1>
                 </div>
                 <div className="container-hed__header__btn">
