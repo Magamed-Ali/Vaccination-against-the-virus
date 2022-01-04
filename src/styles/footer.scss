@@ -4,92 +4,99 @@
   background: #fcf7ff;
   color: $footer-color-text;
 
-  &__datta-address {
+  &__content {
 
-    &__content {
+    .content-logo {
 
-
-      &__logo {
-        padding-top: 35px;
-        .logo-img {
-          margin-bottom: 25px;
-        }
-
-        p {
-
-          font-size: 16px;
-          line-height: 1.8;
-        }
+      .logo-img {
+        margin-bottom: 25px;
       }
 
-      .logo {
-        margin-top: 30px;
-        display: flex;
-
-
-        i {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          width: 50px;
-          height: 50px;
-          color: $footer-logo-color;
-          font-size: 16px;
-          border: 1px solid rgba(169, 171, 171, 0.16);
-          border-radius: 50px;
-          transition: 0.3s;
-          margin-left: 10px;
-          cursor: pointer;
-
-          &:hover {
-            color: $white;
-            background-color: $footer-logo-color;
-
-          }
-        }
-
-        .logo_i {
-          margin-left: 0;
-        }
-      }
-      &__ul {
-        padding-top: 35px;
-      }
-      &__ul h6 {
-        list-style-type: none;
-        font-size: 20px;
-        margin-bottom: 20px;
-        color: $footer-h6;
-        font-weight: 600;
-      }
-      &__ul ul li {
-        list-style-type: none;
+      p {
+        font-size: 16px;
         line-height: 1.8;
-        margin-top: 15px;
+      }
+    }
+
+    .link-social-media {
+      margin-top: 30px;
+      display: flex;
+
+      a {
+        text-decoration: none;
+      }
+
+      i {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        color: $footer-logo-color;
+        font-size: 16px;
+        border: 1px solid rgba(169, 171, 171, 0.16);
+        border-radius: 50px;
+        transition: 0.3s;
+        margin-left: 10px;
         cursor: pointer;
 
         &:hover {
-          color: $footer-logo-color;
+          color: $white;
+          background-color: $footer-logo-color;
         }
       }
-      &__ul i, span {
-        color: $footer-h6;
-        font-size: 20px;
-        margin-top: 45px;
-      }
-      &__ul span {
-        margin-left: 10px;
-        font-size: 16px;
-        transition: 0.3s;
+    }
+
+    .content-services {
+      color: $footer-color-text;
+    }
+
+    ul {
+      padding-left: 0;
+    }
+
+    .content-services h6 {
+      list-style-type: none;
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: $footer-h6;
+      font-weight: 600;
+    }
+
+    .content-services li {
+      list-style-type: none;
+      line-height: 1.8;
+      margin-top: 15px;
+
+      a {
+        text-decoration: none;
+        color: $footer-color-text;
 
         &:hover {
-          font-size: 18px;
           color: $footer-logo-color;
-          cursor: pointer;
         }
       }
+    }
 
+
+    .number, span {
+      color: $footer-h6;
+      font-size: 20px;
+      margin-top: 45px;
+      margin-left: 10px;
+      font-size: 16px;
+      transition: 0.3s;
+
+      &:hover {
+        font-size: 18px;
+        color: $footer-logo-color;
+        cursor: pointer;
+      }
     }
   }
 }
+
+
+
+
 

@@ -12,10 +12,10 @@ function HeaderNav() {
                     </div>
                     <div className="nav-bar__menu">
                         <ul>
-                            <li>Home</li>
-                            <li>Form</li>
-                            <li>Vaccinated</li>
-                            <li>History</li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/">Form</a></li>
+                            <li><a href="/">Vaccinated</a></li>
+                            <li><a href="/">History</a></li>
                         </ul>
                     </div>
                     <div className="nav-bar__btn">
