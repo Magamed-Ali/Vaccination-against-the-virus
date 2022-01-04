@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../../../assets/images/logo.png'
 import ContainerLines from '../../shared/container-lines/ContainerLine'
+import FooterFloor from "./FooterFloor";
 
 function Footer() {
     return (
@@ -56,6 +57,7 @@ function Footer() {
                         <i className="fas fa-phone number"><span>360-779-2228</span></i>
                     </div>
                 </div>
+                <div><FooterFloor/></div>
             </div>
         </div>
     );
