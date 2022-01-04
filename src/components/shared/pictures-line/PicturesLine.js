@@ -16,7 +16,6 @@ function Footer() {
                     <div className="images"><img src={photo_3} alt="img" className="photo"/></div>
                     <div className="images"><img src={photo_4} alt="img" className="photo"/></div>
                     <div className="images"><img src={photo_5 } alt="img" className="photo"/></div>
-
                 </div>
                 <div className="pictures-line__bar"></div>
             </div>
