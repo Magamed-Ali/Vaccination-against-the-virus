@@ -33,7 +33,7 @@ function Footer() {
                             <li>The Team List</li>
                         </ul>
                     </div>
-                    <div className="col-md-2  footer__datta-address__content__ul">
+                    <div className="col-md-3  footer__datta-address__content__ul">
                         <ul>
                             <h6>Useful Links</h6>
                             <li>Conditions</li>
@@ -43,7 +43,7 @@ function Footer() {
                             <li>The Team List</li>
                         </ul>
                     </div>
-                    <div className="col-lg-3  footer__datta-address__content__ul">
+                    <div className="col-lg-2  footer__datta-address__content__ul">
 
                         <h6>Subscribe</h6>
                         <p>Get The Latest Updates via email.
