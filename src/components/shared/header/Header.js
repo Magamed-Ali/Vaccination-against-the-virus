@@ -3,6 +3,7 @@ import HeaderNav from "./HeaderNav";
 import Topbar from "./Topbar";
 import ContainerHead from "../container/ContainerHead";
 import PicturesLine from "../pictures-line/PicturesLine";
+import Footer from "../footer/Footer";
 
 function Header() {
     return (
@@ -11,6 +12,7 @@ function Header() {
             <HeaderNav/>
             <ContainerHead/>
             <PicturesLine/>
+            <Footer/>
         </div>
     );
 }
