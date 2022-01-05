@@ -10,18 +10,32 @@ function HeaderNav() {
                     <div className="nav-bar__logo">
                         <img src={logo} alt="logo"/>
                     </div>
-                    <div className="nav-bar__menu">
-                        <ul>
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/">Form</a></li>
-                            <li><a href="/">Vaccinated</a></li>
-                            <li><a href="/">History</a></li>
-                        </ul>
+                    <div className="menu-wrap menu-burger">
+                        <input type="checkbox" className="toggler">
+                        </input>
+                        <div className="hamburger">
+                            <div></div>
+                        </div>
+                        <div className="menu">
+                            <div>
+                                <div>
+                                    <ul>
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">About</a></li>
+                                        <li><a href="#">Services</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div className="nav-bar__btn">
                         <button className="nav-bar__btn__button btn">Find A Doctor</button>
                     </div>
+
                 </div>
+
+
             </div>
 
         </div>
