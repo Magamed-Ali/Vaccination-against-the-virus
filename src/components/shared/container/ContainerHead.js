@@ -1,7 +1,9 @@
 import React from 'react';
+import ContainerSection from "../container-section/ContainerSection";
 
 function ContainerHead() {
     return (
+        <div>
         <div className="container-fluid content-menu">
             <div className="container content-menu__header">
                 <div className="content-menu__header__title">
@@ -20,6 +22,8 @@ function ContainerHead() {
                     </div>
                 </div>
             </div>
+        </div>
+            <ContainerSection/>
         </div>
     );
 }
