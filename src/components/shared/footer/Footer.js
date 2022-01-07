@@ -1,8 +1,10 @@
 import React from 'react';
 import logo from '../../../assets/images/logo.png'
-import ContainerLines from '../../shared/container-lines/ContainerLine'
+import ContainerLines from '../container-lines/ContainerLine'
 import FooterFloor from "./FooterFloor";
-
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faPhoneAlt} from '@fortawesome/free-solid-svg-icons'
+import {faFacebook, faTwitter, faPinterest, faInstagram, faGoogle} from '@fortawesome/free-brands-svg-icons';
 function Footer() {
     return (
         <div className="footer">
@@ -18,15 +20,15 @@ function Footer() {
                             readable.</p>
                         <div className="link-social-media">
                             <a href="https://www.facebook.com/" target="_blank">
-                                <i className="fab fa-2x fa-facebook-f"></i></a>
+                                <FontAwesomeIcon icon={faFacebook}/></a>
                             <a href="https://twitter.com/" target="_blank">
-                                <i className="fab fa-2x fa-twitter"></i></a>
+                                <FontAwesomeIcon icon={faTwitter}/></a>
                             <a href="https://www.instagram.com/" target="_blank">
-                                <i className="fab fa-2x fa-instagram-square"></i></a>
+                                <FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://ru-ru.facebook.com/" target="_blank">
-                                <i className="fab fa-2x fa-linkedin-in"></i></a>
+                                <FontAwesomeIcon icon={faPinterest}/></a>
                             <a href="https://www.google.ru/" target="_blank">
-                                <i className="fab fa-2x fa-google"></i></a>
+                                <FontAwesomeIcon icon={faGoogle}/></a>
                         </div>
                     </div>
                     <div className="col-md-4 col-xl-3 content-services">
@@ -54,7 +56,7 @@ function Footer() {
                         <p>Get The Latest Updates via email.
                             <br/>
                             Any time you may unsubscribe</p>
-                        <i className="fas fa-phone number"><span>360-779-2228</span></i>
+                        <a href=""><FontAwesomeIcon icon={faPhoneAlt}/><span>360-779-2228</span></a>
                     </div>
                 </div>
                 <div><FooterFloor/></div>

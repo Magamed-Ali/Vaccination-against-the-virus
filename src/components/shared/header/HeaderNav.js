@@ -21,8 +21,7 @@ function HeaderNav() {
                                 <div>
                                     <ul>
                                         <li><a href="#">Home</a></li>
-                                        <li><a href="#">About</a></li>
-                                        <li><a href="#">Services</a></li>
+                                        <li><a href="#">FAQ</a></li>
                                         <li><a href="#">Contact</a></li>
                                     </ul>
                                 </div>
@@ -32,15 +31,9 @@ function HeaderNav() {
                     <div className="nav-bar__btn">
                         <button className="nav-bar__btn__button btn">Find A Doctor</button>
                     </div>
-
                 </div>
-
-
             </div>
-
         </div>
-
-
     );
 }
 

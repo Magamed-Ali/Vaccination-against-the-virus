@@ -19,29 +19,35 @@ body {
     justify-content: space-between;
     align-items: center;
   }
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
 
   &__mail {
 
     margin-right: 24px;
 
-    i {
+    a {
       margin-right: 10px;
+
+
     }
   }
 
   &__address {
 
-    i {
+    a {
       margin-right: 10px;
     }
   }
 
   &__social-links {
-    i {
+    a {
       margin-right: 24px;
     }
 
-    i:last-child {
+    a:last-child {
       margin-right: 0;
     }
   }
@@ -59,6 +65,7 @@ body {
 
   &__logo {
     width: 190px;
+    padding: 10px 0;
 
     img {
       width: 100%;
@@ -90,7 +97,7 @@ body {
 .content-menu {
   display: flex;
   align-items: center;
-  height: calc(100vh - 44px);
+  min-height: calc(100vh - 44px);
   background-color: rgba(206, 161, 137, 0.53);
   text-align: center;
   color: $white;

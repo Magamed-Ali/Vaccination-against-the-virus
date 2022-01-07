@@ -1,52 +1,58 @@
 import React from 'react';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faStethoscope, faUserNurse, faHeartbeat, faNotesMedical, faArrowRight} from '@fortawesome/free-solid-svg-icons'
+
 
 function ContainerSection() {
     return (
-        <div className="container section">
-            <div className="row">
-                <div className="col-lg-3 col-md-6 col-sm-12 aside">
-                    <div className="aside__block">
-                        <div className="icon"><i className="fas fa-stethoscope"></i></div>
-                        <a href="">Therapy</a>
-                        <p>Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit,
-                            sed do eiusmod Lorem ipsum dolor sit.</p>
-                        <div className="link"><a href=""><i className="fas fa-arrow-right"></i></a></div>
+        <div className="section-block">
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-3 col-md-6 col-sm-12 aside">
+                        <div className="aside__block">
+                            <div className="icon"><a href=""><FontAwesomeIcon icon={faStethoscope}/></a></div>
+                            <h5><a href="">Therapy</a></h5>
+                            <p>Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit,
+                                sed do eiusmod Lorem ipsum dolor sit.</p>
+                            <div className="link"><a href=""><FontAwesomeIcon icon={faArrowRight}/></a></div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 col-sm-12 aside">
+                        <div className="aside__block">
+                            <div className="icon"><a href=""><FontAwesomeIcon icon={faUserNurse}/></a></div>
+                            <h5><a href="">Dentistry</a></h5>
+                            <p>Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit,
+                                sed do eiusmod Lorem ipsum dolor sit.</p>
+                            <div className="link"><a href=""><FontAwesomeIcon icon={faArrowRight}/></a></div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 col-sm-12 aside">
+                        <div className="aside__block">
+                            <div className="icon"><a href=""><FontAwesomeIcon icon={faHeartbeat}/></a></div>
+                            <h5><a href="">Virusology</a></h5>
+                            <p>Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit,
+                                sed do eiusmod Lorem ipsum dolor sit.</p>
+                            <div className="link"><a href=""><FontAwesomeIcon icon={faArrowRight}/></a></div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 col-sm-12 aside">
+                        <div className="aside__block">
+                            <div className="icon"><a href=""><FontAwesomeIcon icon={faNotesMedical}/></a></div>
+                            <h5><a href="">Pharmacology</a></h5>
+                            <p>Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit,
+                                sed do eiusmod Lorem ipsum dolor sit.</p>
+                            <div className="link"><a href=""><FontAwesomeIcon icon={faArrowRight}/></a></div>
+                        </div>
                     </div>
                 </div>
-                <div className="col-lg-3 col-md-6 col-sm-12 aside">
-                    <div className="aside__block">
-                        <div className="icon"><i className="fas fa-user-nurse"></i></div>
-                        <a href="">Dentistry</a>
-                        <p>Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit,
-                            sed do eiusmod Lorem ipsum dolor sit.</p>
-                        <div className="link"><a href=""><i className="fas fa-arrow-right"></i></a></div>
-                    </div>
-                </div>
-                <div className="col-lg-3 col-md-6 col-sm-12 aside">
-                    <div className="aside__block">
-                        <div className="icon"><i className="fas fa-heartbeat"></i></div>
-                        <a href="">Virusology</a>
-                        <p>Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit,
-                            sed do eiusmod Lorem ipsum dolor sit.</p>
-                        <div className="link"><a href=""><i className="fas fa-arrow-right"></i></a></div>
-                    </div>
-                </div>
-                <div className="col-lg-3 col-md-6 col-sm-12 aside">
-                    <div className="aside__block">
-                        <div className="icon"><i className="fas fa-notes-medical"></i></div>
-                        <a href="">Pharmacology</a>
-                        <p>Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit,
-                            sed do eiusmod Lorem ipsum dolor sit.</p>
-                        <div className="link"><a href=""><i className="fas fa-arrow-right"></i></a></div>
-                    </div>
-                </div>
+                <div/>
             </div>
         </div>
-    );
-}
+            );
+            }
 
-export default ContainerSection;
+            export default ContainerSection;

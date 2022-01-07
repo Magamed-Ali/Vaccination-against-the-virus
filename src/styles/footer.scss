@@ -23,10 +23,6 @@
       display: flex;
 
       a {
-        text-decoration: none;
-      }
-
-      i {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -39,6 +35,7 @@
         transition: 0.3s;
         margin-left: 10px;
         cursor: pointer;
+        text-decoration: none;
 
         &:hover {
           color: $white;
@@ -54,6 +51,7 @@
 
     ul {
       padding-left: 0;
+      list-style-type: none;
     }
 
     .content-services h6 {
@@ -64,18 +62,14 @@
       font-weight: 600;
     }
 
-    .content-services li {
-      list-style-type: none;
+    .content-services a {
       line-height: 1.8;
       margin-top: 15px;
+      text-decoration: none;
+      color: $footer-h6;
 
-      a {
-        text-decoration: none;
-        color: $footer-color-text;
-
-        &:hover {
-          color: $footer-logo-color;
-        }
+      &:hover {
+        color: $footer-logo-color;
       }
     }
 
