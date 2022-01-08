@@ -1,0 +1,41 @@
+
+.page-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(246, 124, 88, 0.62);
+  min-height: calc(100vh - 44px);
+
+
+  h1 {
+    color: $footer-h6;
+    font-size: 72px;
+    margin-bottom: 15px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 600;
+  }
+
+  .page-text ul {
+    display: flex;
+    justify-content: center;
+
+    li {
+      font-family: 'Rubik', sans-serif;
+      padding-left: 8px;
+      font-style: normal;
+      color: $text-color-section;
+      font-size: 16px;
+    }
+
+    li  a{
+      color: $footer-logo-color;
+      font-weight: 600;
+      font-size: 16px;
+      padding: 0;
+    }
+
+  }
+
+
+}

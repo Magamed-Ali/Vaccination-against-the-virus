@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../../assets/images/logo-white.png';
+import {NavLink} from "react-router-dom";
 
 
 function HeaderNav() {
@@ -22,7 +23,7 @@ function HeaderNav() {
                                     <ul>
                                         <li><a href="#">Home</a></li>
                                         <li><a href="#">FAQ</a></li>
-                                        <li><a href="#">Contact</a></li>
+                                        <li><NavLink to='/contact'> Contact </NavLink></li>
                                     </ul>
                                 </div>
                             </div>

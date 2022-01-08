@@ -1,5 +1,6 @@
 import React from 'react';
 import ContainerSection from "../container-section/ContainerSection";
+/*import bgImg from "../../../assets/images/home-team-banner.jpg"*/
 
 function ContainerHead() {
     return (
@@ -7,6 +8,7 @@ function ContainerHead() {
             <div className="container-fluid content-menu">
                 <div className="container content-menu__header">
                     <div className="content-menu__header__title">
+                        {/*<img src={bgImg} alt="img" className="background"/>*/}
                         <h6>Markets & Resources</h6>
                         <h1>Find The Best</h1>
                         <h1> Doctor Around You</h1>

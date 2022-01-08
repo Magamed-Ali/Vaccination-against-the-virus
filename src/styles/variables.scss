@@ -9,7 +9,14 @@ $text-color-section: #686a6f;
 
 $border-line: rgba(26, 26, 26, 0.16);
 
+ul {
+  margin: 0;
+  padding: 0;
+}
 
+li {
+  list-style-type: none;
+}
 
 p {
   font-family: 'Rubik', sans-serif;
