@@ -33,6 +33,11 @@
       font-weight: 600;
       font-size: 16px;
       padding: 0;
+      transition: 0.3s;
+
+      &:hover {
+        color: $footer-h6;
+      }
     }
 
   }
