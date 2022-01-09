@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../../assets/images/logo-white.png';
+import {NavLink} from "react-router-dom";
 
 
 function HeaderNav() {
@@ -21,9 +22,8 @@ function HeaderNav() {
                                 <div>
                                     <ul>
                                         <li><a href="#">Home</a></li>
-                                        <li><a href="#">About</a></li>
-                                        <li><a href="#">Services</a></li>
-                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="#">FAQ</a></li>
+                                        <li><NavLink to='/contact'> Contact </NavLink></li>
                                     </ul>
                                 </div>
                             </div>
@@ -32,15 +32,9 @@ function HeaderNav() {
                     <div className="nav-bar__btn">
                         <button className="nav-bar__btn__button btn">Find A Doctor</button>
                     </div>
-
                 </div>
-
-
             </div>
-
         </div>
-
-
     );
 }
 

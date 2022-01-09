@@ -13,16 +13,12 @@
 
 .address-line {
   display: flex;
-  justify-content: normal;
   align-items: center;
   padding: 0 15px;
   border-right: 1px solid rgba(26, 26, 26, 0.16);
 
-  a {
-    text-decoration: none;
-  }
 
-  i {
+  a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,6 +32,7 @@
     transition: 0.3s;
     margin-left: 10px;
     cursor: pointer;
+    text-decoration: none;
 
     &:hover {
       color: $white;
@@ -63,7 +60,7 @@
     padding: 30px 15px 0 0;
     margin: 30px 0 0 0;
 
-    i {
+    a {
       margin: 0px 20px 0 0;
     }
   }
