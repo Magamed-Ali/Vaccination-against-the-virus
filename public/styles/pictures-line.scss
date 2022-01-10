@@ -1,0 +1,28 @@
+
+.pictures-line {
+  background: #fff;
+
+  &__content {
+
+    &__images {
+
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+
+      .images {
+        width: 20%;
+        margin: auto;
+
+        img {
+          max-width: 100%;
+          height: auto;
+
+        }
+
+      }
+
+    }
+  }
+
+}
