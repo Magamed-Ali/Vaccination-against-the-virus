@@ -1,5 +1,4 @@
 
-
 body {
   height: 100%;
 }
@@ -20,6 +19,7 @@ body {
     justify-content: space-between;
     align-items: center;
   }
+
   a {
     color: #fff;
     text-decoration: none;
@@ -55,6 +55,7 @@ body {
 }
 
 .nav-bar-wrapper {
+  position: absolute;
   background-color: rgba(0, 89, 99, 0.7);
 }
 
@@ -96,21 +97,27 @@ body {
 }
 
 .content-menu {
-  display: flex;
-  align-items: center;
-  min-height: calc(100vh - 44px);
-  /*background-image: url(https://slidesigma.nyc/templatemonster/wp/medtab/wp-content/uploads/2021/08/subheader-bg.png);*/
-  background-color: rgba(206, 161, 137, 0.53);
-  text-align: center;
+  min-height: calc(100vh);
   color: $white;
+  padding: 0;
+
 
   &__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /*background-color: rgba(206, 161, 137, 0.53);*/
+    background: url("../components/shared/photo-background/home-team-banner.jpg") 0 0/100% 100% no-repeat;
+    min-width: 100%;
+    min-height: calc(100vh);
 
     &__title {
-      padding: 70px 0 50px 0;
+     margin-top: 80px;
 
       h1 {
-        font-size: 55px;
+        font-size: 5em;
         font-weight: 500;
       }
     }
@@ -136,6 +143,7 @@ body {
         background-color: $white;
         color: $black-text-btn;
         margin-left: 6px;
+        font-weight: 600;
 
         &:hover {
           transition: 0.5s;
@@ -153,7 +161,7 @@ body {
   opacity: 0;
 }
 
-@media screen and (min-width: 801px){
+@media screen and (min-width: 801px) {
   .menu-burger {
     display: flex;
     align-items: center;
@@ -162,7 +170,7 @@ body {
       display: none;
     }
 
-    .menu ul{
+    .menu ul {
       display: flex;
       margin: 0;
 
@@ -194,8 +202,8 @@ body {
 
 }
 
-@media screen and (max-width: 800px) {
 
+@media screen and (max-width: 800px) {
 
   .top-bar {
     justify-content: center;
@@ -218,7 +226,7 @@ body {
 
 @media screen and (max-width: 800px) {
   .container {
-    max-width: 960px;
+    max-width: 100%;
     margin: auto;
     overflow: hidden;
     padding: 0 3rem;
@@ -366,7 +374,7 @@ body {
 
   .menu-wrap .toggler:checked ~ .menu > div > div {
     opacity: 1;
-    transition:  opacity 0.4s ease 0.4s;
+    transition: opacity 0.4s ease 0.4s;
   }
 
   .menu-wrap .menu {

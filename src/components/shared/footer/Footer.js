@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from '../../../assets/images/logo.png'
 import ContainerLines from '../container-lines/ContainerLine'
 import FooterFloor from "./FooterFloor";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faPhoneAlt} from '@fortawesome/free-solid-svg-icons'
 import {faFacebook, faTwitter, faPinterest, faInstagram, faGoogle} from '@fortawesome/free-brands-svg-icons';
+
 function Footer() {
     return (
         <div className="footer">
@@ -12,7 +12,7 @@ function Footer() {
             <div className="container footer__content">
                 <div className="row g-5 justify-content-md-start">
                     <div className="col-md-12 col-xl-4 content-logo">
-                        <div className="logo-img"><img src={logo} alt=""/></div>
+                        <div className="logo-img"><img src="./assets/images/logo.png" alt=""/></div>
                         <p>It is a long established fact that a
                             <br/>
                             reader will be distracted by the

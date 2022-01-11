@@ -1,9 +1,8 @@
 import React from 'react';
 import Header from "./components/shared/header/Header";
-import "./styles/style.scss"
+import "./styles/style.scss";
 import {Route, Routes} from "react-router-dom";
-import Contact from "./components/shared/contact/Contact";
-
+import Contact from "./components/pages/contact/Contact";
 
 function App() {
 
