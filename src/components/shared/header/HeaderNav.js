@@ -1,7 +1,5 @@
 import React from 'react';
-import logo from '../../../assets/images/logo-white.png';
 import {NavLink} from "react-router-dom";
-
 
 function HeaderNav() {
     return (
@@ -9,7 +7,7 @@ function HeaderNav() {
             <div className="container">
                 <div className="nav-bar">
                     <div className="nav-bar__logo">
-                        <img src={logo} alt="logo"/>
+                        <img src="./assets/images/logo-white.png" alt="logo"/>
                     </div>
                     <div className="menu-wrap menu-burger">
                         <input type="checkbox" className="toggler">

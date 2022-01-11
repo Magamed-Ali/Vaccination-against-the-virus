@@ -4,7 +4,6 @@ import "./styles/style.scss";
 import {Route, Routes} from "react-router-dom";
 import Contact from "./components/pages/contact/Contact";
 
-
 function App() {
 
     return (

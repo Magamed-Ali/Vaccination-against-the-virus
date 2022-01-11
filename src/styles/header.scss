@@ -55,6 +55,7 @@ body {
 }
 
 .nav-bar-wrapper {
+  position: absolute;
   background-color: rgba(0, 89, 99, 0.7);
 }
 
@@ -96,23 +97,27 @@ body {
 }
 
 .content-menu {
-  display: flex;
-  align-items: center;
-  min-width: 100%;
-  min-height: calc(100vh - 44px);
-  background-color: rgba(206, 161, 137, 0.53);
- /* background-image: url("/assets/images/home-team-banner.jpg") no-repeat;*/
-  background-size: cover;
-  text-align: center;
+  min-height: calc(100vh);
   color: $white;
+  padding: 0;
+
 
   &__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /*background-color: rgba(206, 161, 137, 0.53);*/
+    background: url("../components/shared/photo-background/home-team-banner.jpg") 0 0/100% 100% no-repeat;
+    min-width: 100%;
+    min-height: calc(100vh);
 
     &__title {
-      padding: 70px 0 50px 0;
+     margin-top: 80px;
 
       h1 {
-        font-size: 55px;
+        font-size: 5em;
         font-weight: 500;
       }
     }
@@ -138,6 +143,7 @@ body {
         background-color: $white;
         color: $black-text-btn;
         margin-left: 6px;
+        font-weight: 600;
 
         &:hover {
           transition: 0.5s;
@@ -198,7 +204,6 @@ body {
 
 
 @media screen and (max-width: 800px) {
-
 
   .top-bar {
     justify-content: center;
