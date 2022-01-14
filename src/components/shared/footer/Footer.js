@@ -12,7 +12,7 @@ function Footer() {
             <div className="container footer__content">
                 <div className="row g-5 justify-content-md-start">
                     <div className="col-md-12 col-xl-4 content-logo">
-                        <div className="logo-img"><img src="./assets/images/logo.png" alt=""/></div>
+                        <div className="logo-img"><a href="/"><img src="./assets/images/logo.png" alt=""/></a></div>
                         <p>It is a long established fact that a
                             <br/>
                             reader will be distracted by the

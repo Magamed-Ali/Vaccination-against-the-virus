@@ -1,16 +1,16 @@
 import React from 'react';
-import Header from "./components/shared/header/Header";
+import Home from "./components/pages/home/Home";
 import "./styles/style.scss";
 import {Route, Routes} from "react-router-dom";
-import Contact from "./components/pages/contact/Contact";
+import ContactUs from "./components/pages/contactUs/ContactUs";
 
 function App() {
 
     return (
         <>
             <Routes>
-                <Route path='/' element={<Header/>}/>
-                <Route path='/contact' element={<Contact/>}/>
+                <Route path='/' element={<Home/>}/>
+                <Route path='/contact' element={<ContactUs/>}/>
             </Routes>
         </>
     );

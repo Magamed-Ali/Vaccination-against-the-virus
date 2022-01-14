@@ -5,19 +5,17 @@ function ContainerHead() {
     return (
         <div>
             <div className="container-fluid content-menu">
-                <div className="container content-menu__header">
-                    <div className="content-menu__header__title">
+                <div className="content-menu__title">
+                    <div>
                         <h6>Markets & Resources</h6>
                         <h1>Find The Best<br/> Doctor Around You</h1>
                     </div>
-                    <div className="content-menu__header__btn">
-                        <div className="content-menu__header__btn__left">
+                    <div className="content-menu__title__btn">
+                        <div className="content-menu__title__btn__left">
                             <button className="btn">Find Doctor &#10010;</button>
                         </div>
-                        <div className="content-menu__header__btn__right">
-                            <button className="btn">
-                                Find Doctor
-                            </button>
+                        <div className="content-menu__title__btn__right">
+                            <button className="btn">Find Doctor</button>
                         </div>
                     </div>
                 </div>
