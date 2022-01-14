@@ -1,4 +1,4 @@
-
+@import "printing-house";
 @import "variables";
 @import "header";
 @import "pictures-line";
@@ -7,6 +7,7 @@
 @import "footer-floor";
 @import "container-section";
 @import "contact";
+@import "contact-us-line";
 
 @font-face {
   font-family: 'Rubik';
@@ -17,8 +18,6 @@
   font-family: 'Heebo';
   src: url('../../public/assets/fonts/Heebo-VariableFont_wght.ttf');
 }
-
-
 
 @font-face {
   font-family: 'Regular';

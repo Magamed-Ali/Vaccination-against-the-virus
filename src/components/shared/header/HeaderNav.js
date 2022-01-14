@@ -7,7 +7,7 @@ function HeaderNav() {
             <div className="container">
                 <div className="nav-bar">
                     <div className="nav-bar__logo">
-                        <img src="./assets/images/logo-white.png" alt="logo"/>
+                        <a href="/"><img src="./assets/images/logo-white.png" alt="logo"/></a>
                     </div>
                     <div className="menu-wrap menu-burger">
                         <input type="checkbox" className="toggler">
@@ -19,9 +19,9 @@ function HeaderNav() {
                             <div>
                                 <div>
                                     <ul>
-                                        <li><a href="#">Home</a></li>
+                                        <li><a href="/">Home</a></li>
                                         <li><a href="#">FAQ</a></li>
-                                        <li><NavLink to='/contact'> Contact </NavLink></li>
+                                        <li><NavLink to='/contact'> Contact Us </NavLink></li>
                                     </ul>
                                 </div>
                             </div>

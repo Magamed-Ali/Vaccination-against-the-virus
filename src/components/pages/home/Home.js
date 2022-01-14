@@ -1,18 +1,20 @@
 import React from 'react';
 import HeaderNav from "../../shared/header/HeaderNav";
 import Topbar from "../../shared/header/Topbar";
+import PicturesLine from "../../shared/pictures-line/PicturesLine";
 import Footer from "../../shared/footer/Footer";
-import PageTitle from "../../shared/contact/PageTitle";
+import ContainerHead from "../../shared/containerHead/ContainerHead";
 
-function Contact() {
+function Home() {
     return (
         <div>
             <Topbar/>
             <HeaderNav/>
-            <PageTitle/>
+            <ContainerHead/>
+            <PicturesLine/>
             <Footer/>
         </div>
     );
 }
 
-export default Contact;
+export default Home;
