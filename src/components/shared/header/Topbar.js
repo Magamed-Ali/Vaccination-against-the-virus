@@ -19,7 +19,7 @@ function TopBar() {
                             <span>Oakwood, Los Angeles, CA 1098</span>
                         </div>
                     </div>
-                    <div className="top-bar__social-links">
+                    <div className="top-bar__sociallinks">
                         <a href="https://www.facebook.com/" target="_blank"><FontAwesomeIcon icon={faFacebook}/></a>
                         <a href="https://twitter.com/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
                         <a href="https://www.pinterest.es/freepik/" target="_blank"><FontAwesomeIcon icon={faPinterest}/></a>

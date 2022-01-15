@@ -10,7 +10,7 @@
   font-weight: 400;
   border-top: 1px solid rgba(104, 106, 111, 0.14);
 
-  .floor-a {
+  .footerLinks {
     color: $footer-logo-color;
     transition: .3ms;
 
@@ -51,6 +51,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
     div:last-child{
       margin-top: 12px;
     }

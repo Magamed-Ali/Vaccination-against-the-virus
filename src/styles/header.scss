@@ -45,7 +45,7 @@ body {
     }
   }
 
-  &__social-links {
+  &__sociallinks {
     a {
       margin-right: 24px;
     }
@@ -56,48 +56,49 @@ body {
   }
 }
 
-.nav-bar-wrapper {
+.navbarWrapper {
   position: relative;
   z-index: 100;
   background-color: rgba(0, 89, 99, 0.7);
-}
 
-.nav-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: $white;
+  &__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $white;
 
-  &__logo {
-    width: 190px;
-    padding: 10px 0;
+    .navigationLogo {
+      width: 190px;
+      padding: 10px 0;
 
-    img {
-      width: 100%;
+      img {
+        width: 100%;
 
-      &:hover {
-        cursor: pointer;
+        &:hover {
+          cursor: pointer;
+        }
       }
     }
-  }
 
-  &__btn {
-    width: 162px;
+    .navigationBtn {
+      width: 162px;
 
-    &__button {
-      background-color: #00acb1;
-      color: $white;
-      text-transform: uppercase;
-
-      &:hover {
-        transition: 0.5s;
-        background: $background;
+      button {
+        background-color: #00acb1;
         color: $white;
+        text-transform: uppercase;
 
+        &:hover {
+          transition: 0.5s;
+          background: $background;
+          color: $white;
+
+        }
       }
     }
   }
 }
+
 
 .content-menu {
 
@@ -110,6 +111,7 @@ body {
   background-size: cover;
   min-height: calc(100vh);
   margin-top: -126px;
+  padding: 160px 0 160px;
 
   &__title {
     text-align: center;
@@ -121,35 +123,35 @@ body {
     h1 {
       font-weight: 500;
     }
+  }
 
-    &__btn {
-      display: flex;
-      justify-content: center;
-      margin: 50px 0 50px 0;
+  &__btn {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 50px 0;
 
-      &__left .btn {
-        background-color: #00acb1;
+    .btn-primary {
+      background-color: #00acb1;
+      color: $white;
+      margin-right: 6px;
+
+      &:hover {
+        transition: 0.5s;
+        background: $background;
         color: $white;
-        margin-right: 6px;
-
-        &:hover {
-          transition: 0.5s;
-          background: $background;
-          color: $white;
-        }
       }
+    }
 
-      &__right .btn {
-        background-color: $white;
-        color: $black-text-btn;
-        margin-left: 6px;
-        font-weight: 600;
+    .btn-secondary {
+      background-color: $white;
+      color: $black-text-btn;
+      margin-left: 6px;
+      font-weight: 600;
 
-        &:hover {
-          transition: 0.5s;
-          background: $background;
-          color: $white;
-        }
+      &:hover {
+        transition: 0.5s;
+        background: $background;
+        color: $white;
       }
     }
   }
@@ -165,14 +167,13 @@ body {
 
   .content-menu {
     min-height: auto;
-    padding: 140px 0 140px;
   }
 }
 
 @media screen and (max-width: 470px) {
 
   .content-menu {
-    padding: 80px 0 80px;
+    padding: 140px 0 140px;
 
     &__title {
 
@@ -259,7 +260,7 @@ body {
   .top-bar {
     display: none;
   }
-  .nav-bar__btn {
+  .navigationBtn {
     display: none;
   }
 }

@@ -10,42 +10,42 @@ function ContainerSection() {
                 <div className="row">
                     <div className="col-lg-3 col-md-6 col-sm-12 aside">
                         <div className="aside__block">
-                            <div className="icon"><a href=""><FontAwesomeIcon icon={faStethoscope}/></a></div>
-                            <h5><a href="">Therapy</a></h5>
+                            <div className="aside__block-icon"><FontAwesomeIcon icon={faStethoscope}/></div>
+                            <h5><a href="/">Therapy</a></h5>
                             <p>Lorem ipsum dolor sit amet
                                 consectetur adipisicing elit,
                                 sed do eiusmod Lorem ipsum dolor sit.</p>
-                            <div className="link"><a href=""><FontAwesomeIcon icon={faArrowRight}/></a></div>
+                            <div className="aside__block-link"><span><FontAwesomeIcon icon={faArrowRight}/></span></div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-12 aside">
                         <div className="aside__block">
-                            <div className="icon"><a href=""><FontAwesomeIcon icon={faUserNurse}/></a></div>
-                            <h5><a href="">Dentistry</a></h5>
+                            <div className="aside__block-icon"><FontAwesomeIcon icon={faUserNurse}/></div>
+                            <h5><a href="/">Dentistry</a></h5>
                             <p>Lorem ipsum dolor sit amet
                                 consectetur adipisicing elit,
                                 sed do eiusmod Lorem ipsum dolor sit.</p>
-                            <div className="link"><a href=""><FontAwesomeIcon icon={faArrowRight}/></a></div>
+                            <div className="aside__block-link"><span><FontAwesomeIcon icon={faArrowRight}/></span></div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-12 aside">
                         <div className="aside__block">
-                            <div className="icon"><a href=""><FontAwesomeIcon icon={faHeartbeat}/></a></div>
-                            <h5><a href="">Virusology</a></h5>
+                            <div className="aside__block-icon"><FontAwesomeIcon icon={faHeartbeat}/></div>
+                            <h5><a href="/">Virusology</a></h5>
                             <p>Lorem ipsum dolor sit amet
                                 consectetur adipisicing elit,
                                 sed do eiusmod Lorem ipsum dolor sit.</p>
-                            <div className="link"><a href=""><FontAwesomeIcon icon={faArrowRight}/></a></div>
+                            <div className="aside__block-link"><span><FontAwesomeIcon icon={faArrowRight}/></span></div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-12 aside">
                         <div className="aside__block">
-                            <div className="icon"><a href=""><FontAwesomeIcon icon={faNotesMedical}/></a></div>
-                            <h5><a href="">Pharmacology</a></h5>
+                            <div className="aside__block-icon"><FontAwesomeIcon icon={faNotesMedical}/></div>
+                            <h5><a href="/">Pharmacology</a></h5>
                             <p>Lorem ipsum dolor sit amet
                                 consectetur adipisicing elit,
                                 sed do eiusmod Lorem ipsum dolor sit.</p>
-                            <div className="link"><a href=""><FontAwesomeIcon icon={faArrowRight}/></a></div>
+                            <div className="aside__block-link"><span><FontAwesomeIcon icon={faArrowRight}/></span></div>
                         </div>
                     </div>
                 </div>

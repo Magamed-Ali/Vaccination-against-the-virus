@@ -3,11 +3,11 @@ import {NavLink} from "react-router-dom";
 
 function HeaderNav() {
     return (
-        <div className="container-fluid nav-bar-wrapper">
+        <div className="container-fluid navbarWrapper">
             <div className="container">
-                <div className="nav-bar">
-                    <div className="nav-bar__logo">
-                        <a href="/"><img src="./assets/images/logo-white.png" alt="logo"/></a>
+                <div className="navbarWrapper__navigation">
+                    <div className="navigationLogo">
+                        <NavLink to="/"><img src="./assets/images/logo-white.png" alt="logo"/></NavLink>
                     </div>
                     <div className="menu-wrap menu-burger">
                         <input type="checkbox" className="toggler">
@@ -16,19 +16,15 @@ function HeaderNav() {
                             <div></div>
                         </div>
                         <div className="menu">
-                            <div>
-                                <div>
-                                    <ul>
-                                        <li><a href="/">Home</a></li>
-                                        <li><a href="#">FAQ</a></li>
-                                        <li><NavLink to='/contact'> Contact Us </NavLink></li>
-                                    </ul>
-                                </div>
-                            </div>
+                            <ul>
+                                <li><NavLink to="/">Home</NavLink></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><NavLink to='/contact'> Contact Us </NavLink></li>
+                            </ul>
                         </div>
                     </div>
-                    <div className="nav-bar__btn">
-                        <button className="nav-bar__btn__button btn">Find A Doctor</button>
+                    <div className="navigationBtn">
+                        <button className="btn">Find A Doctor</button>
                     </div>
                 </div>
             </div>
