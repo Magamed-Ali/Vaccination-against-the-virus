@@ -3,13 +3,13 @@ import {NavLink} from "react-router-dom";
 
 function PageTitle(props) {
     return (
-        <div className="contactUs">
-            <div className="breadCrumbs">
+        <div className="contact-us">
+            <div className="title-wrapper">
                 <h1>Contact Us</h1>
-                <ul className="breadCrumbs__feedback">
-                    <li><NavLink to='/'> Home </NavLink></li>
-                    <li>/</li>
-                    <li>Contact Us</li>
+                <ul className="bread-crumbs">
+                    <li><NavLink to='/' className="bread-crumbs__link"> Home </NavLink></li>
+                    <li className="separate">/</li>
+                    <li><NavLink to="/" className="bread-crumbs__link active" >Contact Us</NavLink></li>
                 </ul>
             </div>
 

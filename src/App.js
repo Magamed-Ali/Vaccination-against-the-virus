@@ -1,8 +1,8 @@
 import React from 'react';
 import Home from "./components/pages/home/Home";
-import "./styles/style.scss";
 import {Route, Routes} from "react-router-dom";
 import ContactUs from "./components/pages/contactUs/ContactUs";
+
 
 function App() {
 

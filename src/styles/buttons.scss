@@ -1,0 +1,40 @@
+
+.btn {
+  font-family: 'Heebo';
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 0;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 17px 30px;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 0 3px 24px #0000001a;
+
+  &:hover {
+    transition: .5s;
+  }
+}
+
+.btn-primary {
+  background-color: #00acb1;
+  color: $white;
+
+  &:hover {
+    background: $background;
+    color: $white;
+  }
+}
+
+.btn-secondary {
+  background-color: $white;
+  color: $black-text-btn;
+
+  &:hover {
+    background: $background;
+    color: $white;
+  }
+}

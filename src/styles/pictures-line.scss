@@ -2,16 +2,15 @@
 .pictures-line {
   background: #fff;
 
-
   &__content {
 
-    &__images {
+    &-images {
 
       display: flex;
       justify-content: space-between;
       width: 100%;
 
-      .images {
+      .picture {
         width: 20%;
         margin: auto;
 

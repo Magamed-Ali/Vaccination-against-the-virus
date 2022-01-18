@@ -1,0 +1,26 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  font-family: 'Rubik';
+}
+
+a {
+  text-decoration: none;
+}
+
+//TODO исправить стили для заголовков для всех экранов
+
+
+.subtitle {
+  color: $footer-logo-color;
+  margin-bottom: 10px;
+  margin-top: 0;
+  font-weight: 500;
+}

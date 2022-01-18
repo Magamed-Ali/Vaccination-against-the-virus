@@ -7,13 +7,16 @@ import ContainerHead from "../../shared/containerHead/ContainerHead";
 
 function Home() {
     return (
-        <div>
-            <Topbar/>
-            <HeaderNav/>
+       <>
+           <div>
+               <Topbar/>
+               <HeaderNav/>
+           </div>
             <ContainerHead/>
             <PicturesLine/>
             <Footer/>
-        </div>
+       </>
+
     );
 }
 

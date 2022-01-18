@@ -2,7 +2,7 @@
 .content-floor {
   display: flex;
   justify-content: space-between;
-  margin: 50px -15px 0;
+  margin: 50px 15px 0;
   padding: 30px 0;
   color: $footer-color-text;
   white-space: nowrap;
@@ -10,7 +10,7 @@
   font-weight: 400;
   border-top: 1px solid rgba(104, 106, 111, 0.14);
 
-  .footerLinks {
+  &__footer-links {
     color: $footer-logo-color;
     transition: .3ms;
 
@@ -42,18 +42,6 @@
 
     &:first-child {
       border-left: none;
-    }
-  }
-}
-
-@media screen and (max-width: 720px){
-  .content-floor{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-    div:last-child{
-      margin-top: 12px;
     }
   }
 }

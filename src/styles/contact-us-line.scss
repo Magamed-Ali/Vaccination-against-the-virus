@@ -3,7 +3,7 @@
   background: #f8f8f8;
 }
 
-.feedbackLoop {
+.feedback-loop {
   padding-top: 100px;
   padding-bottom: 100px;
 
@@ -35,7 +35,7 @@
         margin: 0;
       }
 
-      .infoIcon {
+      .info-icon {
         width: 70px;
         height: 70px;
         display: flex;
@@ -52,25 +52,3 @@
   }
 }
 
-@media screen and (max-width: 991px) {
-
-  .feedbackLoop__case {
-
-    &:last-child {
-      padding-top: 15px;
-
-    }
-  }
-}
-
-@media screen and (max-width: 767px) {
-
-  .feedbackLoop__case {
-    padding-bottom: 15px;
-
-    &:last-child {
-      padding-top: 0;
-      padding-bottom: 0;
-    }
-  }
-}
