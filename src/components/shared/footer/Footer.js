@@ -9,7 +9,7 @@ import {NavLink} from "react-router-dom";
 function Footer() {
     return (
         <div className="footer">
-            <div className="contact-lines"><ContainerLines/></div>
+            <div><ContainerLines/></div>
             <div className="container footer__content">
                 <div className="row g-5 justify-content-md-start">
                     <div className="col-md-12 col-xl-4 footer__content-logo">

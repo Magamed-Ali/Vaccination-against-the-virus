@@ -14,7 +14,7 @@
       margin-bottom: 65px;
       border: 1px solid #ebf2f3;
 
-      .icon {
+      &-icon {
         width: 80px;
         height: 80px;
         border-radius: 6px;
@@ -26,7 +26,6 @@
         justify-content: center;
         box-shadow: 0 0 10px 6px rgba(0, 0, 0, 0.03);
         background-color: #fff;
-
 
         a {
           font-family: 'Roboto', sans-serif;
@@ -43,6 +42,11 @@
 
         a {
           color: $footer-h6;
+          transition: .3s;
+
+          &:hover {
+            color: $footer-logo-color;
+          }
         }
       }
 
@@ -55,14 +59,14 @@
         font-weight: 400;
       }
 
-      .link {
+      &-link {
         width: 25px;
         height: 25px;
         transition: .3s;
         padding: 0;
         margin: 0;
 
-        a {
+        span {
           color: $footer-logo-color;
           font-size: 16px;
           transition-delay: 0.5s;

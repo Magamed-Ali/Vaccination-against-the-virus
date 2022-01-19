@@ -11,9 +11,9 @@ function ContainerUsLine(props) {
                     <div className="col-lg-4 col-md-6 col-sm-12 feedback-loop__case">
                         <div className="info">
                             <div className="info__icon"><FontAwesomeIcon icon={faHospitalAlt}/></div><div>
-                                <h5>Our Address</h5>
-                                <p>PSD Building, 2 Tower St,<br/> United States.</p>
-                            </div>
+                            <h5>Our Address</h5>
+                            <p>PSD Building, 2 Tower St,<br/> United States.</p>
+                        </div>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-12 feedback-loop__case">
