@@ -11,8 +11,8 @@ function ContainerHead() {
                         <h1>Find The Best<br/> Doctor Around You</h1>
                     </div>
                     <div className="content-menu__btn">
-                            <button className="btn-primary btn">Find Doctor &#10010;</button>
-                            <button className="btn-secondary btn">Find Doctor</button>
+                        <button className="btn-primary btn">Find Doctor &#10010;</button>
+                        <button className="btn-secondary btn">Find Doctor</button>
                     </div>
                 </div>
             </div>

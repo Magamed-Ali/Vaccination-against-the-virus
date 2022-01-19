@@ -1,16 +1,16 @@
 
 .feedback {
-  background: #f8f8f8;
+  background: #f8f8f8;;
 }
 
-.feedbackLoop {
+.feedback-loop {
   padding-top: 100px;
   padding-bottom: 100px;
 
   &__case {
     transition: .3s;
 
-    &-info {
+    .info {
       display: flex;
       border-radius: 6px;
       border: 1px solid #ebf2f3;
@@ -35,7 +35,7 @@
         margin: 0;
       }
 
-      .infoIcon {
+      &__icon {
         width: 70px;
         height: 70px;
         display: flex;
@@ -54,7 +54,7 @@
 
 @media screen and (max-width: 991px) {
 
-  .feedbackLoop__case {
+  .feedback-loop__case {
 
     &:last-child {
       padding-top: 15px;
@@ -65,7 +65,7 @@
 
 @media screen and (max-width: 767px) {
 
-  .feedbackLoop__case {
+  .feedback-loop__case {
     padding-bottom: 15px;
 
     &:last-child {

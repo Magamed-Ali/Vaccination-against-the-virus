@@ -1,5 +1,5 @@
 
-.contactUs {
+.contact-us {
   padding-top: 240px;
   padding-bottom: 180px;
   background: url("../components/shared/photo-background/subheader-bg.png") no-repeat;
@@ -7,44 +7,49 @@
   background-size: cover;
   margin-top: -126px;
   z-index: 1;
+}
 
-  .breadCrumbs {
-    max-width: 800px;
-    text-align: center;
-    margin: auto;
+.title-wrapper {
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
 
-    h1 {
-      font-size: 72px;
+
+  h1 {
+    color: $footer-h6;
+    margin-bottom: 15px;
+    font-weight: 700;
+  }
+
+}
+
+.bread-crumbs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .separate {
+    margin: 0 8px;
+  }
+
+  &__link {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-size: 16px;
+    color: $footer-logo-color;
+    font-weight: 600;
+    transition: 0.3s;
+
+    &:hover {
       color: $footer-h6;
-      margin-bottom: 15px;
-      font-family: 'Heebo';
-      font-weight: 700;
-    }
-
-    &__feedback {
-      display: flex;
-      justify-content: center;
-
-      li {
-        font-family: 'Rubik';
-        padding-left: 8px;
-        font-style: normal;
-        color: $text-color-section;
-        font-size: 16px;
-      }
-
-      li a {
-        color: $footer-logo-color;
-        font-weight: 600;
-        font-size: 16px;
-        padding: 0;
-        transition: 0.3s;
-
-        &:hover {
-          color: $footer-h6;
-        }
-      }
     }
   }
 }
 
+.active {
+  color: $text-color-section;
+
+  &:hover {
+    color: $text-color-section;
+  }
+}

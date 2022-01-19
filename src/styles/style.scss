@@ -1,5 +1,7 @@
-@import "printing-house";
+@import "fonts";
+@import "typography";
 @import "variables";
+@import "printing-house";
 @import "header";
 @import "pictures-line";
 @import "footer";
@@ -8,18 +10,8 @@
 @import "container-section";
 @import "contact";
 @import "contact-us-line";
+@import "form";
+@import "buttons";
 
-@font-face {
-  font-family: 'Rubik';
-  src: url('../../public/assets/fonts/Rubik-VariableFont_wght.ttf');
-}
 
-@font-face {
-  font-family: 'Heebo';
-  src: url('../../public/assets/fonts/Heebo-VariableFont_wght.ttf');
-}
 
-@font-face {
-  font-family: 'Regular';
-  src: url('../../public/assets/fonts/TheNautigal-Bold.ttf');
-}

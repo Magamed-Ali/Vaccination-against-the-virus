@@ -9,11 +9,11 @@ import {NavLink} from "react-router-dom";
 function Footer() {
     return (
         <div className="footer">
-            <div className="contact-lines"><ContainerLines/></div>
+            <div><ContainerLines/></div>
             <div className="container footer__content">
                 <div className="row g-5 justify-content-md-start">
                     <div className="col-md-12 col-xl-4 footer__content-logo">
-                        <div className="logoImg">
+                        <div className="logo-img">
                             <NavLink to="/"><img src="./assets/images/logo.png" alt=""/></NavLink>
                         </div>
                         <p>It is a long established fact that a
@@ -21,7 +21,7 @@ function Footer() {
                             reader will be distracted by the
                             <br/>
                             readable.</p>
-                        <div className="logoMedia">
+                        <div className="logo-media">
                             <a href="https://www.facebook.com/" target="_blank">
                                 <FontAwesomeIcon icon={faFacebook}/></a>
                             <a href="https://twitter.com/" target="_blank">
@@ -59,7 +59,7 @@ function Footer() {
                         <p>Get The Latest Updates via email.
                             <br/>
                             Any time you may unsubscribe</p>
-                        <a href="/"><FontAwesomeIcon icon={faPhoneAlt}/><span>360-779-2228</span></a>
+                        <a href=""><FontAwesomeIcon icon={faPhoneAlt}/><span>360-779-2228</span></a>
                     </div>
                 </div>
                 <div><FooterFloor/></div>
