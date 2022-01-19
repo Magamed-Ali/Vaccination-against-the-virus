@@ -4,6 +4,7 @@ import Topbar from "../../shared/header/Topbar";
 import Footer from "../../shared/footer/Footer";
 import PageTitle from "../../shared/contactUs/PageTitle";
 import ContactUsLine from "../../shared/container-us-lines/ContainerUsLine"
+import MakeRequest from "../../shared/form/MakeRequest";
 
 function ContactUs() {
     return (
@@ -14,7 +15,7 @@ function ContactUs() {
             </div>
             <PageTitle/>
             <ContactUsLine/>
-
+            <MakeRequest/>
             <Footer/>
         </div>
     );
