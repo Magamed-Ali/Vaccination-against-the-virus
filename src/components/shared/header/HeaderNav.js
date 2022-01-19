@@ -28,7 +28,7 @@ function HeaderNav() {
                         </div>
                     </div>
                     <div className="nav-bar__btn">
-                        <button className="nav-bar__btn__button btn">Find A Doctor</button>
+                        <button className="btn-primary btn">Find A Doctor</button>
                     </div>
                 </div>
             </div>

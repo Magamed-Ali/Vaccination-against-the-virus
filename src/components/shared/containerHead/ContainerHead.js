@@ -10,13 +10,9 @@ function ContainerHead() {
                         <h6>Markets & Resources</h6>
                         <h1>Find The Best<br/> Doctor Around You</h1>
                     </div>
-                    <div className="content-menu__title__btn">
-                        <div className="content-menu__title__btn__left">
-                            <button className="btn">Find Doctor &#10010;</button>
-                        </div>
-                        <div className="content-menu__title__btn__right">
-                            <button className="btn">Find Doctor</button>
-                        </div>
+                    <div className="content-menu__btn">
+                        <button className="btn-primary btn">Find Doctor &#10010;</button>
+                        <button className="btn-secondary btn">Find Doctor</button>
                     </div>
                 </div>
             </div>

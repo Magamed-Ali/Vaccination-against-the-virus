@@ -82,19 +82,10 @@ body {
   }
 
   &__btn {
-    width: 162px;
 
-    &__button {
-      background-color: #00acb1;
-      color: $white;
+    button {
+      width: 162px;
       text-transform: uppercase;
-
-      &:hover {
-        transition: 0.5s;
-        background: $background;
-        color: $white;
-
-      }
     }
   }
 }
@@ -119,37 +110,22 @@ body {
     }
 
     h1 {
-      font-weight: 500;
+      font-weight: 600;
     }
+  }
 
-    &__btn {
-      display: flex;
-      justify-content: center;
-      margin: 50px 0 50px 0;
+  &__btn {
+    display: flex;
+    justify-content: center;
 
-      &__left .btn {
-        background-color: #00acb1;
-        color: $white;
-        margin-right: 6px;
+    button {
 
-        &:hover {
-          transition: 0.5s;
-          background: $background;
-          color: $white;
-        }
+      &:first-child {
+        margin-right: 15px;
       }
 
-      &__right .btn {
-        background-color: $white;
-        color: $black-text-btn;
-        margin-left: 6px;
-        font-weight: 600;
-
-        &:hover {
-          transition: 0.5s;
-          background: $background;
-          color: $white;
-        }
+      &:last-child {
+        margin-right: 15px;
       }
     }
   }
@@ -174,27 +150,19 @@ body {
   .content-menu {
     padding: 80px 0 80px;
 
-    &__title {
+    &__btn {
+      flex-direction: column;
+      justify-content: center;
 
-      &__btn {
-        flex-direction: column;
-        justify-content: center;
+      button {
 
-        &__right {
-          order: -1;
-
-          .btn {
-            margin-left: 0;
-            margin-right: 0;
-          }
+        &:first-child {
+          margin-right: 0;
         }
 
-        &__left {
-
-          .btn {
-            margin-left: 0;
-            margin-right: 0;
-          }
+        &:last-child {
+          margin-left: 15px ;
+          order: -1;
         }
       }
     }
