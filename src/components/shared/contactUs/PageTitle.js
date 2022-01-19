@@ -3,19 +3,16 @@ import {NavLink} from "react-router-dom";
 
 function PageTitle(props) {
     return (
-            <div className="contact-us">
-                <div className="contact-us__place-in-us">
-                    <h1>Contact Us</h1>
-                    <div className="page-text">
-                        <ul>
-                            <li><NavLink to='/'> Home </NavLink></li>
-                            <li>/</li>
-                            <li>Contact Us</li>
-                        </ul>
-                    </div>
-                </div>
-
+        <div className="contact-us">
+            <div className="title-wrapper">
+                <h1>Contact Us</h1>
+                <ul className="bread-crumbs">
+                    <li><NavLink to='/' className="bread-crumbs__link"> Home </NavLink></li>
+                    <li className="separate">/</li>
+                    <li><NavLink to="/" className="bread-crumbs__link active" >Contact Us</NavLink> </li>
+                </ul>
             </div>
+        </div>
     );
 }
 

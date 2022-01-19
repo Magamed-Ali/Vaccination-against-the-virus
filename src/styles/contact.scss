@@ -9,42 +9,47 @@
   z-index: 1;
 }
 
-.contact-us__place-in-us {
+.title-wrapper {
   max-width: 800px;
   text-align: center;
   margin: auto;
 
+
   h1 {
-    font-size: 72px;
     color: $footer-h6;
     margin-bottom: 15px;
-    font-family: 'Heebo';
     font-weight: 700;
   }
 
-  .page-text ul {
-    display: flex;
-    justify-content: center;
+}
 
-    li {
-      font-family: 'Rubik';
-      padding-left: 8px;
-      font-style: normal;
-      color: $text-color-section;
-      font-size: 16px;
-    }
+.bread-crumbs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    li a {
-      color: $footer-logo-color;
-      font-weight: 600;
-      font-size: 16px;
-      padding: 0;
-      transition: 0.3s;
+  .separate {
+    margin: 0 8px;
+  }
 
-      &:hover {
-        color: $footer-h6;
-      }
+  &__link {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-size: 16px;
+    color: $footer-logo-color;
+    font-weight: 600;
+    transition: 0.3s;
+
+    &:hover {
+      color: $footer-h6;
     }
   }
 }
 
+.active {
+  color: $text-color-section;
+
+  &:hover {
+    color: $text-color-section;
+  }
+}
