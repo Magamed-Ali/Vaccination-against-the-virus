@@ -1,6 +1,5 @@
 import React from 'react';
 import Home from "./components/pages/home/Home";
-import "./styles/style.scss";
 import {Route, Routes} from "react-router-dom";
 import ContactUs from "./components/pages/contactUs/ContactUs";
 
@@ -9,7 +8,7 @@ function App() {
     return (
         <>
             <Routes>
-                <Route path='/' element={<Home/>}/>
+                <Route path='/' exact element={<Home/>}/>
                 <Route path='/contact' element={<ContactUs/>}/>
             </Routes>
         </>
