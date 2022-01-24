@@ -1,0 +1,31 @@
+
+
+#scroll-top {
+  position: fixed;
+  bottom: 70px;
+  right: 50px;
+  font-size: 40px;
+  z-index: 999;
+  color: #00464d;
+
+  svg{
+    box-shadow: 0 0 5px 1px #6e6e6e;
+    border-radius: 50%;
+    cursor: pointer;
+
+    &:hover {
+      font-size: 41px;
+      box-shadow: 0 0 15px 1px #6e6e6e;
+    }
+  }
+}
+
+.isShow-btn {
+  opacity: 1;
+  transition: .5s;
+
+  &__hide {
+    opacity: 0;
+    transition: .5s;
+  }
+}
