@@ -2,6 +2,7 @@ import React from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faEnvelope, faSearchLocation} from '@fortawesome/free-solid-svg-icons';
 import {faFacebook, faTwitter, faPinterest, faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import ScrollToTop from "../scrollToTop/ScrollToTop";
 
 function TopBar() {
     return (

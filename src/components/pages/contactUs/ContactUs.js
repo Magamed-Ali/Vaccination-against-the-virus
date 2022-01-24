@@ -18,7 +18,6 @@ function ContactUs() {
             <ContactUsLine/>
             <MakeRequest/>
             <Footer/>
-            <ScrollToTop/>
         </div>
     );
 }

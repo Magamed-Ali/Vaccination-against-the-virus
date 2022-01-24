@@ -14,7 +14,6 @@ function Home() {
             <ContainerHead/>
             <PicturesLine/>
             <Footer/>
-            <ScrollToTop/>
         </div>
     );
 }
