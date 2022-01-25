@@ -5,7 +5,6 @@ import Footer from "../../shared/footer/Footer";
 import PageTitle from "../../shared/contactUs/PageTitle";
 import ContactUsLine from "../../shared/container-us-lines/ContainerUsLine"
 import MakeRequest from "../../shared/form/MakeRequest";
-import ScrollToTop from "../../shared/scrollToTop/ScrollToTop";
 
 function ContactUs() {
     return (
