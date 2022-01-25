@@ -1,7 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {NavLink} from "react-router-dom";
+import ScrollToTop from "../scrollToTop/ScrollToTop";
+
 
 function HeaderNav() {
+
+
     return (
         <div className="container-fluid nav-bar-wrapper">
             <div className="container">
