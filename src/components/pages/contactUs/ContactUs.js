@@ -2,7 +2,7 @@ import React from 'react';
 import HeaderNav from "../../shared/header/HeaderNav";
 import Topbar from "../../shared/header/Topbar";
 import Footer from "../../shared/footer/Footer";
-import PageTitle from "../../shared/contactUs/PageTitle";
+import PageTitleContact from "../../shared/pageTitleContact/PageTitleContact";
 import ContactUsLine from "../../shared/container-us-lines/ContainerUsLine"
 import MakeRequest from "../../shared/form/MakeRequest";
 
@@ -13,7 +13,7 @@ function ContactUs() {
                 <Topbar/>
                 <HeaderNav/>
             </div>
-            <PageTitle/>
+            <PageTitleContact/>
             <ContactUsLine/>
             <MakeRequest/>
             <Footer/>
