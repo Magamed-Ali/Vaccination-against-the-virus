@@ -1,18 +1,21 @@
-import React from 'react';
+import React, {useState} from 'react';
 import HeaderNav from "../../shared/header/HeaderNav";
 import Topbar from "../../shared/header/Topbar";
 import PicturesLine from "../../shared/pictures-line/PicturesLine";
 import Footer from "../../shared/footer/Footer";
 import ContainerHead from "../../shared/containerHead/ContainerHead";
+import SearchModal from "../../shared/search-modal/SearchModal";
 
-function Home() {
+function Home(props) {
+
     return (
         <div>
             <Topbar/>
-            <HeaderNav/>
+            <HeaderNav handleClick={props.handleClick}/>
             <ContainerHead/>
             <PicturesLine/>
             <Footer/>
+            <SearchModal isOpened={props.isOpened} handleClick={props.handleClick}/>
         </div>
     );
 }

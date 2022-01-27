@@ -3,7 +3,8 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faEnvelope, faSearchLocation} from '@fortawesome/free-solid-svg-icons';
 import {faFacebook, faTwitter, faPinterest, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 
-function TopBar() {
+function TopBar(props) {
+
     return (
         <div className="container-fluid p-0 top-bar-wrapper">
             <div className="container">

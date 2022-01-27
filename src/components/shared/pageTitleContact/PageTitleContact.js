@@ -1,9 +1,9 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
 
-function PageTitle(props) {
+function PageTitleContact(props) {
     return (
-        <div className="contact-us">
+        <div className="page-title-contact">
             <div className="title-wrapper">
                 <h1>Contact Us</h1>
                 <ul className="bread-crumbs">
@@ -16,4 +16,4 @@ function PageTitle(props) {
     );
 }
 
-export default PageTitle;
+export default PageTitleContact;

@@ -2,21 +2,23 @@ import React from 'react';
 import HeaderNav from "../../shared/header/HeaderNav";
 import Topbar from "../../shared/header/Topbar";
 import Footer from "../../shared/footer/Footer";
-import PageTitle from "../../shared/contactUs/PageTitle";
+import PageTitleContact from "../../shared/pageTitleContact/PageTitleContact";
 import ContactUsLine from "../../shared/container-us-lines/ContainerUsLine"
 import MakeRequest from "../../shared/form/MakeRequest";
+import SearchModal from "../../shared/search-modal/SearchModal";
 
-function ContactUs() {
+function ContactUs(props) {
     return (
         <div>
             <div className="container">
                 <Topbar/>
-                <HeaderNav/>
+                <HeaderNav handleClick={props.handleClick}/>
             </div>
-            <PageTitle/>
+            <PageTitleContact/>
             <ContactUsLine/>
             <MakeRequest/>
             <Footer/>
+            <SearchModal isOpened={props.isOpened} handleClick={props.handleClick}/>
         </div>
     );
 }
