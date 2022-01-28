@@ -18,6 +18,10 @@
 
   .menu-burger .menu ul li a {
     color: white;
+
+    &:hover {
+      color: #00acb1;
+    }
   }
 }
 
