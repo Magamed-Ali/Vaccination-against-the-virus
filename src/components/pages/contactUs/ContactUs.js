@@ -12,8 +12,9 @@ function ContactUs(props) {
     return (
         <div>
             <div className="container">
-                <Topbar/>
-                <HeaderNav handleClick={props.handleClick}/>
+                <Topbar navigationStatus={props.navigationStatus}/>
+                <HeaderNav handleClick={props.handleClick}
+                           navigationStatus={props.navigationStatus}/>
             </div>
             <PageTitleContact/>
             <ContactUsLine/>

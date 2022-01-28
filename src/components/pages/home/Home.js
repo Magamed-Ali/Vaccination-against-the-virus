@@ -10,8 +10,9 @@ function Home(props) {
 
     return (
         <div>
-            <Topbar/>
-            <HeaderNav handleClick={props.handleClick}/>
+            <Topbar navigationStatus={props.navigationStatus}/>
+            <HeaderNav handleClick={props.handleClick}
+                       navigationStatus={props.navigationStatus}/>
             <ContainerHead/>
             <PicturesLine/>
             <Footer/>
