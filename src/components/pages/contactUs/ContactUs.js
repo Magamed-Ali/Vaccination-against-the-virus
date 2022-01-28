@@ -6,6 +6,7 @@ import PageTitleContact from "../../shared/pageTitleContact/PageTitleContact";
 import ContactUsLine from "../../shared/container-us-lines/ContainerUsLine"
 import MakeRequest from "../../shared/form/MakeRequest";
 import SearchModal from "../../shared/search-modal/SearchModal";
+import CardGoogle from "../../shared/card-google/CardGoogle";
 
 function ContactUs(props) {
     return (
@@ -18,6 +19,7 @@ function ContactUs(props) {
             <PageTitleContact/>
             <ContactUsLine/>
             <MakeRequest/>
+            <CardGoogle/>
             <Footer/>
             <SearchModal isOpened={props.isOpened} handleClick={props.handleClick}/>
         </div>
