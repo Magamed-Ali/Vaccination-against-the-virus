@@ -6,7 +6,8 @@ import {faFacebook, faTwitter, faPinterest, faLinkedin} from '@fortawesome/free-
 function TopBar(props) {
 
     return (
-        <div className="container-fluid p-0 top-bar-wrapper">
+        <div className={`container-fluid p-0 top-bar-wrapper 
+        ${props.navigationStatus ? "top-bar-wrapper-home" : "top-bar-wrapper-contact"}`}>
             <div className="container">
                 <div className="top-bar">
                     <div className="top-bar__info">

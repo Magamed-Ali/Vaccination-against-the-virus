@@ -6,14 +6,22 @@ import ContactUs from "./components/pages/contactUs/ContactUs";
 function App() {
 
     let [modal, setModal] = useState(false);
+    let navigationStatus;
 
     let handleClick = () => setModal(!modal);
 
     return (
         <>
             <Routes>
-                <Route path='/' exact element={<Home isOpened={modal} handleClick={handleClick}/>}/>
-                <Route path='/contact' element={<ContactUs isOpened={modal} handleClick={handleClick}/>}/>
+                <Route path='/' exact element={
+                    <Home isOpened={modal}
+                          handleClick={handleClick}
+                          navigationStatus={navigationStatus = true}/>}/>
+
+                <Route path='/contact' element={
+                    <ContactUs isOpened={modal}
+                               handleClick={handleClick}
+                               navigationStatus={navigationStatus = false}/>}/>
             </Routes>
         </>
     );

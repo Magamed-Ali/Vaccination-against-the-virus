@@ -7,11 +7,13 @@ function HeaderNav(props) {
 
 
     return (
-        <div className="container-fluid nav-bar-wrapper">
+        <div className={`container-fluid nav-bar-wrapper 
+        ${props.navigationStatus ? "nav-bar-wrapper-home" : "nav-bar-wrapper-contact"}`}>
             <div className="container">
                 <div className="nav-bar">
                     <div className="nav-bar__logo">
-                        <NavLink to="/"><img src="./assets/images/logo-white.png" alt="logo"/></NavLink>
+                        <NavLink to="/"><img src={`
+                        ${props.navigationStatus ? "./assets/images/logo-white.png" : "./assets/images/logo.png"}`} alt="logo"/></NavLink>
                     </div>
                     <div className="menu-wrap menu-burger">
                         <input type="checkbox" className="toggler">
