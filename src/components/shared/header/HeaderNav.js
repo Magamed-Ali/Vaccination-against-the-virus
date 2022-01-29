@@ -19,7 +19,8 @@ function HeaderNav(props) {
                         <input type="checkbox" className="toggler">
                         </input>
                         <div className="hamburger">
-                            <div></div>
+                            <div className={`
+                            ${props.navigationStatus ? "white-for-header-nav" : "black-for-header-nav"}`}></div>
                         </div>
                         <div className="menu">
                             <div>
@@ -34,7 +35,7 @@ function HeaderNav(props) {
                         </div>
                     </div>
                     <div className="nav-bar__find">
-                        <div className="nav-bar__find-search"  onClick={props.handleClick}>
+                        <div className="nav-bar__find-search" onClick={props.handleClick}>
                             <FontAwesomeIcon icon={faSearch}/>
                         </div>
                         <div className="nav-bar__find-btn">

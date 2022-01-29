@@ -1,12 +1,12 @@
 
-.contactDetails {
+.contact-details {
   background: $white;
   padding: 20px 50px;
   margin: 0 -15px 50px;
   border-radius: 15px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 
-  &__addressLine {
+  &__address-line {
     display: flex;
     align-items: center;
     padding: 0 15px;
@@ -52,9 +52,9 @@
 
 
 @media screen and (max-width: 960px) {
-  .contactDetails {
+  .contact-details {
 
-    &__addressLine {
+    &__address-line {
       border-right: none;
       border-top: 1px solid rgba(26, 26, 26, 0.16);
       border-right: none;
@@ -77,8 +77,8 @@
 }
 
 @media screen and (max-width: 991px) {
-  .contactDetails {
-    &__addressLine {
+  .contact-details {
+    &__address-line {
       padding: 30px 15px 0 0;
       margin: 30px 0 0 0;
       border-right: none;

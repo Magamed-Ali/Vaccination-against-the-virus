@@ -1,9 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faStethoscope, faUserNurse, faHeartbeat, faNotesMedical, faArrowRight} from '@fortawesome/free-solid-svg-icons'
 
 
 function ContainerSection() {
+
+
     return (
         <div className="section-block">
             <div className="container">
@@ -15,7 +17,7 @@ function ContainerSection() {
                             <p>Lorem ipsum dolor sit amet
                                 consectetur adipisicing elit,
                                 sed do eiusmod Lorem ipsum dolor sit.</p>
-                            <div className="aside__block-link"><span><FontAwesomeIcon icon={faArrowRight}/></span></div>
+                            <div className="aside__block-link"><p className="pop-up-text">Read More</p><span><FontAwesomeIcon icon={faArrowRight}/></span></div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-12 aside">
@@ -25,7 +27,7 @@ function ContainerSection() {
                             <p>Lorem ipsum dolor sit amet
                                 consectetur adipisicing elit,
                                 sed do eiusmod Lorem ipsum dolor sit.</p>
-                            <div className="aside__block-link"><span><FontAwesomeIcon icon={faArrowRight}/></span></div>
+                            <div className="aside__block-link"><p className="pop-up-text">Read More</p><span><FontAwesomeIcon icon={faArrowRight}/></span></div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-12 aside">
@@ -35,7 +37,7 @@ function ContainerSection() {
                             <p>Lorem ipsum dolor sit amet
                                 consectetur adipisicing elit,
                                 sed do eiusmod Lorem ipsum dolor sit.</p>
-                            <div className="aside__block-link"><span><FontAwesomeIcon icon={faArrowRight}/></span></div>
+                            <div className="aside__block-link"><p className="pop-up-text">Read More</p><span><FontAwesomeIcon icon={faArrowRight}/></span></div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-12 aside">
@@ -45,7 +47,7 @@ function ContainerSection() {
                             <p>Lorem ipsum dolor sit amet
                                 consectetur adipisicing elit,
                                 sed do eiusmod Lorem ipsum dolor sit.</p>
-                            <div className="aside__block-link"><span><FontAwesomeIcon icon={faArrowRight}/></span></div>
+                            <div className="aside__block-link"><p className="pop-up-text">Read More</p><span><FontAwesomeIcon icon={faArrowRight}/></span></div>
                         </div>
                     </div>
                 </div>

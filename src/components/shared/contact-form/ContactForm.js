@@ -1,6 +1,6 @@
 import React from 'react';
 
-function MakeRequest(props) {
+function ContactForm(props) {
     return (
         <div className="feedback">
             <div className="container">
@@ -41,4 +41,4 @@ function MakeRequest(props) {
     );
 }
 
-export default MakeRequest;
+export default ContactForm;
