@@ -4,8 +4,7 @@ import {useState} from "react";
 
 function ScrollToTop(props) {
 
-    const eventListener = () => window.scrollTo(0, 0);
-
+    const scroll_up = () => window.scrollTo(0, 0);
 
     let [isShowBtn, setIsShowBtn] = useState();
 
@@ -16,10 +15,9 @@ function ScrollToTop(props) {
             setIsShowBtn('')
     }
 
-
     return (
         <div>
-            <div id={isShowBtn}  onClick={() => eventListener()}>
+            <div id={isShowBtn}  onClick={() => scroll_up()}>
                 <FontAwesomeIcon icon={faArrowUp}/>
             </div>
         </div>

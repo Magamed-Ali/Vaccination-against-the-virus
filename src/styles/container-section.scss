@@ -60,38 +60,46 @@
       }
 
       &-link {
-        width: 25px;
-        height: 25px;
-        transition: .3s;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        overflow: hidden;
+        height: 40px;
         padding: 0;
         margin: 0;
 
         span {
           color: $footer-logo-color;
           font-size: 16px;
-          transition-delay: 0.5s;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          transition: all .5s ease-in-out;
+        }
+      }
 
-          &:hover {
-            display: flex;
-            align-items: center;
+      .pop-up-text {
+        transition: 0.5s;
+        opacity: 0;
+        padding: 0;
+        margin: 0 0 0 -78px;
+      }
 
-            &:before {
-              margin: 0;
-              padding: 0 15px 0 0;
-              font-size: 18px;
-              font-weight: 600;
-              white-space: pre;
-              content: "\Read More";
-              color: #00464d;
+      &:hover {
 
-            }
-          }
-
+        .pop-up-text {
+          margin: 0;
+          padding-right: 5px;
+          opacity: 1;
+          color: $footer-logo-color;
         }
       }
     }
   }
 }
+
+
+
 
 
 
