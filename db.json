@@ -1,0 +1,48 @@
+{
+  "container_line": [
+    {
+      "id": 0,
+      "to": "/",
+      "icon": "faMapMarkerAlt",
+      "p_before": "Our Address",
+      "p_after": "Drive Chicago, IL 60607"
+    },
+    {
+      "id": 1,
+      "to": "/",
+      "icon": "faPhoneAlt",
+      "p_before": "Call Us",
+      "p_after": "360-779-2228"
+    },
+    {
+      "id": 2,
+      "to": "/",
+      "icon": "faEnvelope",
+      "p_before": "Our Mail",
+      "p_after": "yourname@mail.com"
+    }
+  ],
+  "line": [
+    {
+      "id": 4,
+      "to": "/",
+      "icon": "9999",
+      "p_before": "Our Address",
+      "p_after": "errrrrrrrrre"
+    },
+    {
+      "id": 7,
+      "to": "/sdaf",
+      "icon": "5555",
+      "p_before": "Call Us",
+      "p_after": "rrrrrrrr"
+    },
+    {
+      "id": 8,
+      "to": "/sdaf",
+      "icon": "5555",
+      "p_before": "Call Us",
+      "p_after": "rrrrrrrr"
+    }
+  ]
+}
