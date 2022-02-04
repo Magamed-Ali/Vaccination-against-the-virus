@@ -39,7 +39,7 @@ function HeaderNav(props) {
                             <FontAwesomeIcon icon={faSearch}/>
                         </div>
                         <div className="nav-bar__find-btn">
-                            <button className="btn-primary btn" onClick={()=> alert("Asdfa")}>Find A Doctor</button>
+                            <button className="btn-primary btn">Find A Doctor</button>
                         </div>
                     </div>
                 </div>
