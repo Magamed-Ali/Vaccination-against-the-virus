@@ -1,39 +1,40 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faHospitalAlt, faPhoneAlt, faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 
 function ContainerUsLine(props) {
+
+    const [data, setData] = useState([]);
+
+    useEffect(() => {
+        fetch("http://localhost:4000/feedback-loop")
+            .then(response => response.json())
+            .then(json => {
+                setData(json)
+            })
+    }, [])
+
     return (
         <div className="feedback">
             <div className="container feedback-loop">
                 <div className="row justify-content-center">
-                    <div className="col-lg-4 col-md-6 col-sm-12 feedback-loop__case">
-                        <div className="info">
-                            <div className="info__icon"><FontAwesomeIcon icon={faHospitalAlt}/></div><div>
-                            <h5>Our Address</h5>
-                            <p>PSD Building, 2 Tower St,<br/> United States.</p>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12 feedback-loop__case">
-                        <div className="info">
-                            <div className="info__icon"><FontAwesomeIcon icon={faPhoneAlt}/></div>
-                            <div>
-                                <h5>Our Phone</h5>
-                                <p>Telephone: 00291291023<br/>Mobile: 000 2324 39493</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-md-12 col-sm-12 feedback-loop__case">
-                        <div className="info">
-                            <div className="info__icon"><FontAwesomeIcon icon={faEnvelope}/></div>
-                            <div>
-                                <h5>Our Email</h5>
-                                <p>Email: doc@email.com<br/>Inquiries: info@orex.com</p>
-                            </div>
-                        </div>
-                    </div>
+                    {
+                        data.map(todo => {
+                            return (
+                                <div className="col-lg-4 col-md-6 col-sm-12 feedback-loop__case">
+                                    <div className="info">
+                                        <div className="info__icon"><FontAwesomeIcon icon={todo.icon}/></div>
+                                        <div>
+                                            <h5>{todo.title}</h5>
+                                            <p>{todo.sloganBefore}</p>
+                                            <p>{todo.sloganAfter}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            )
+                        })
+                    }
                 </div>
             </div>
         </div>

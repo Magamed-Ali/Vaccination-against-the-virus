@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import {BrowserRouter} from "react-router-dom";
-import './components/shared/Fontawesome/fontawesome';
+import './components/shared/Font-awesome/font-awesome';
 
 import "./styles/style.scss"
 
