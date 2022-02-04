@@ -1,0 +1,86 @@
+{
+  "container-line": [
+    {
+      "id": 1,
+      "to": "/",
+      "icon": "map-marker-alt",
+      "textBefore": "Our Address",
+      "textAfter": "Drive Chicago, IL 60607"
+    },
+
+    {
+      "id": 2,
+      "to": "/",
+      "icon": "phone-alt",
+      "textBefore": "Call Us",
+      "textAfter": "360-779-2228"
+    },
+    {
+      "id": 3,
+      "to": "/",
+      "icon": "envelope",
+      "textBefore": "Our Mail",
+      "textAfter": "yourname@mail.com"
+    }
+  ],
+  "section-block": [
+    {
+      "id": 1,
+      "icon": "stethoscope",
+      "title": "Therapy",
+      "titleLink": "/",
+      "mainText": "Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod Lorem ipsum dolor sit.",
+      "poUpText": "Read More",
+      "poUpTextLink": "/",
+      "iconArrowRight": "arrow-right"
+    },
+    {
+      "id": 2,
+      "icon": "user-nurse",
+      "title": "Dentistry",
+      "titleLink": "/",
+      "mainText": "Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod Lorem ipsum dolor sit.",
+      "poUpText": "Read More",
+      "poUpTextLink": "/",
+      "iconArrowRight": "arrow-right"
+    },
+    {
+      "id": 3,
+      "icon": "heartbeat",
+      "title": "Virusology",
+      "titleLink": "/",
+      "mainText": "Lorem ipsum dolor sit amet consectetur adipisicing elit,  sed do eiusmod Lorem ipsum dolor sit.",
+      "poUpText": "Read More",
+      "poUpTextLink": "/",
+      "iconArrowRight": "arrow-right"
+    },
+    {
+      "id": 4,
+      "icon": "notes-medical",
+      "title": "Pharmacology",
+      "titleLink": "/",
+      "mainText": "Lorem ipsum dolor sit amet consectetur adipisicing elit,  sed do eiusmod Lorem ipsum dolor sit.",
+      "poUpText": "Read More",
+      "poUpTextLink": "/",
+      "iconArrowRight": "arrow-right"
+    }
+
+  ],
+  "pictures-line": [
+    {
+      "images": "./assets/images/slide-img-6.jpg"
+    },
+    {
+      "images": "./assets/images/slide-img-1.jpg"
+    },
+    {
+      "images": "./assets/images/slide-img-2.jpg"
+    },
+    {
+      "images": "./assets/images/slide-img-3.jpg"
+    },
+    {
+      "images": "./assets/images/slide-img-4.jpg"
+    }
+  ]
+}
