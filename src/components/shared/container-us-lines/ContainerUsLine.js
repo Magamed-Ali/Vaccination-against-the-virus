@@ -27,8 +27,7 @@ function ContainerUsLine(props) {
                                         <div className="info__icon"><FontAwesomeIcon icon={todo.icon}/></div>
                                         <div>
                                             <h5>{todo.title}</h5>
-                                            <p>{todo.sloganBefore}</p>
-                                            <p>{todo.sloganAfter}</p>
+                                            <p>{todo.slogan}</p>
                                         </div>
                                     </div>
                                 </div>

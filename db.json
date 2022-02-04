@@ -88,22 +88,19 @@
       "id": 1,
       "icon": "hospital-alt",
       "title": "Our Address",
-      "sloganBefore": "PSD Building, 2 Tower St,",
-      "sloganAfter": "United States."
+      "slogan": "PSD  Building,  2 Tower St, United States."
     },
     {
       "id": 2,
       "icon": "phone-alt",
       "title": "Our Phone",
-      "sloganBefore": "Telephone: 00291291023",
-      "sloganAfter": "Mobile: 000 2324 39493"
+      "slogan": "Telephone: 00291291023 Mobile: 000 2324 39493"
     },
     {
       "id": 3,
       "icon": "envelope",
       "title": "Our Email",
-      "sloganBefore": "Email: doc@email.com",
-      "sloganAfter": "Inquiries: info@orex.com"
+      "slogan": "Email: doc@email.com Inquiries: info@orex.com"
     }
   ]
 }
