@@ -9,7 +9,7 @@ function ContactForm(props) {
                     <h1>Make a Request</h1>
                 </div>
                 <div className="form">
-                    <form action="#">
+                    <form action="#" >
                         <div className="content">
                             <div className="row contact-form">
                                 <div className="col-12 col-md-6 form-wr">

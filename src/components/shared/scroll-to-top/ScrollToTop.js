@@ -1,5 +1,4 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faArrowUp} from '@fortawesome/free-solid-svg-icons'
 import {useState} from "react";
 
 function ScrollToTop(props) {
@@ -18,7 +17,7 @@ function ScrollToTop(props) {
     return (
         <div>
             <div id={isShowBtn}  onClick={() => scroll_up()}>
-                <FontAwesomeIcon icon={faArrowUp}/>
+                <FontAwesomeIcon icon="arrow-up"/>
             </div>
         </div>
     );

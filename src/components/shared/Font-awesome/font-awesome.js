@@ -2,6 +2,8 @@ import {library} from '@fortawesome/fontawesome-svg-core';
 
 // import your icons
 
+// solid-svg-icons
+
 import {
     faHospitalAlt,
     faMapMarkerAlt,
@@ -11,11 +13,28 @@ import {
     faUserNurse,
     faHeartbeat,
     faNotesMedical,
-    faArrowRight
-} from '@fortawesome/free-solid-svg-icons'
+    faArrowRight,
+    faSearch,
+    faSearchLocation,
+    faArrowUp } from '@fortawesome/free-solid-svg-icons';
+
+// brands-svg-icons
+
+import {
+    fab,
+    faFacebook,
+    faTwitter,
+    faPinterest,
+    faInstagram,
+    faGoogle,
+    faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 library.add(
+    fab,
+    faSearch,
     faMapMarkerAlt,
+    faSearchLocation,
+    faArrowUp,
     faPhoneAlt,
     faEnvelope,
     faStethoscope,
@@ -23,6 +42,13 @@ library.add(
     faHeartbeat,
     faNotesMedical,
     faArrowRight,
-    faHospitalAlt
+    faHospitalAlt,
+
+    faFacebook,
+    faTwitter,
+    faPinterest,
+    faInstagram,
+    faGoogle,
+    faLinkedin
     // more icons go here
 );

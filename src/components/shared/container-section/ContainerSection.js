@@ -21,7 +21,7 @@ function ContainerSection() {
                     {
                         data.map(todo => {
                         return (
-                        <div className="col-lg-3 col-md-6 col-sm-12 aside">
+                        <div className="col-lg-3 col-md-6 col-sm-12 aside" key={todo.id}>
                             <div className="aside__block">
                                 <div className="aside__block-icon"><FontAwesomeIcon icon={todo.icon}/></div>
                                 <h5><a href={todo.titleLink}>{todo.title}</a></h5>

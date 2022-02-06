@@ -12,7 +12,7 @@ function SearchModal(props) {
             </div>
             <div className='modal-wrapper__body'>
                 <div className='modal-wrapper__close'>
-                    <input type="text" placeholder=" Search..."/><FontAwesomeIcon icon={faSearch}/>
+                    <input type="text" placeholder=" Search..."/><FontAwesomeIcon icon="search"/>
                 </div>
             </div>
         </form>

@@ -20,7 +20,7 @@ function ContainerLine() {
                 {
                     data.map(todo => {
                         return (
-                            <div className="col-lg-4 contact-details__address-line">
+                            <div className="col-lg-4 contact-details__address-line" key={todo.id}>
                                 <NavLink to={`${todo.to}`}><FontAwesomeIcon icon={todo.icon}/></NavLink>
                                 <div>
                                     <p>{todo.textBefore}</p>

@@ -1,10 +1,8 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faSearch} from '@fortawesome/free-solid-svg-icons';
 
 function HeaderNav(props) {
-
 
     return (
         <div className={`container-fluid nav-bar-wrapper 
@@ -19,8 +17,7 @@ function HeaderNav(props) {
                         <input type="checkbox" className="toggler">
                         </input>
                         <div className="hamburger">
-                            <div className={`
-                            ${props.navigationStatus ? "white-for-header-nav" : "black-for-header-nav"}`}></div>
+                            <div className={`${props.navigationStatus ? "white-for-header-nav" : "black-for-header-nav"}`}></div>
                         </div>
                         <div className="menu">
                             <div>
@@ -36,7 +33,7 @@ function HeaderNav(props) {
                     </div>
                     <div className="nav-bar__find">
                         <div className="nav-bar__find-search" onClick={props.handleClick}>
-                            <FontAwesomeIcon icon={faSearch}/>
+                            <FontAwesomeIcon icon="search"/>
                         </div>
                         <div className="nav-bar__find-btn">
                             <button className="btn-primary btn">Find A Doctor</button>
