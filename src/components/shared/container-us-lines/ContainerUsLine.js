@@ -21,7 +21,7 @@ function ContainerUsLine(props) {
                     {
                         data.map(todo => {
                             return (
-                                <div className="col-lg-4 col-md-6 col-sm-12 feedback-loop__case">
+                                <div className="col-lg-4 col-md-6 col-sm-12 feedback-loop__case" key={todo.id}>
                                     <div className="info">
                                         <div className="info__icon"><FontAwesomeIcon icon={todo.icon}/></div>
                                         <div>

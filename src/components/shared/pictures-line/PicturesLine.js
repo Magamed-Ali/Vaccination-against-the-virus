@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 
-function Footer() {
+function PicturesLine() {
 
     const [images, setImages] = useState([])
 
@@ -19,7 +19,7 @@ function Footer() {
                     {
                         images.map(todo => {
                             return (
-                                <div className="images"><img src={todo.images} alt="img" className="photo"/></div>
+                                <div className="images" key={todo.id}><img src={todo.images} alt="img" className="photo"/></div>
                             )})
                     }
                 </div>
@@ -28,4 +28,4 @@ function Footer() {
     );
 }
 
-export default Footer;
+export default PicturesLine;

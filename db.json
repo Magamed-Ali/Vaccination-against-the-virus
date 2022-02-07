@@ -68,18 +68,23 @@
   ],
   "pictures-line": [
     {
+      "id": 1,
       "images": "./assets/images/slide-img-6.jpg"
     },
     {
+      "id": 2,
       "images": "./assets/images/slide-img-1.jpg"
     },
     {
+      "id": 3,
       "images": "./assets/images/slide-img-2.jpg"
     },
     {
+      "id": 4,
       "images": "./assets/images/slide-img-3.jpg"
     },
     {
+      "id": 5,
       "images": "./assets/images/slide-img-4.jpg"
     }
   ],

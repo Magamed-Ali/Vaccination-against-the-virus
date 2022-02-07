@@ -20,8 +20,7 @@ function HeaderNav(props) {
                         <input type="checkbox" className="toggler">
                         </input>
                         <div className="hamburger">
-                            <div className={`
-                            ${props.navigationStatus ? "white-for-header-nav" : "black-for-header-nav"}`}></div>
+                            <div className={props.navigationStatus ? "white-for-header-nav" : "black-for-header-nav"}></div>
                         </div>
                         <div className="menu">
                             <div>
