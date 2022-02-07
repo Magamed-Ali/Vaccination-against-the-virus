@@ -12,14 +12,25 @@ import {
     faHeartbeat,
     faNotesMedical,
     faArrowRight,
-    faSearch
+    faSearch,
+    faSearchLocation,
+    faArrowUp
 } from '@fortawesome/free-solid-svg-icons';
 
-import {fab, faFacebook, faTwitter, faPinterest, faInstagram, faGoogle} from '@fortawesome/free-brands-svg-icons';
+import {
+    fab,
+    faFacebook,
+    faTwitter,
+    faPinterest,
+    faInstagram,
+    faGoogle
+} from '@fortawesome/free-brands-svg-icons';
 
 library.add(
     fab,
     faSearch,
+    faArrowUp,
+    faSearchLocation,
     faMapMarkerAlt,
     faPhoneAlt,
     faEnvelope,

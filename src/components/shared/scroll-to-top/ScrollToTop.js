@@ -18,7 +18,7 @@ function ScrollToTop(props) {
     return (
         <div>
             <div id={isShowBtn}  onClick={() => scroll_up()}>
-                <FontAwesomeIcon icon={faArrowUp}/>
+                <FontAwesomeIcon icon="arrow-up"/>
             </div>
         </div>
     );
