@@ -1,7 +1,5 @@
 import React from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faSearch} from '@fortawesome/free-solid-svg-icons';
-
 
 function SearchModal(props) {
     return (
@@ -12,7 +10,7 @@ function SearchModal(props) {
             </div>
             <div className='modal-wrapper__body'>
                 <div className='modal-wrapper__close'>
-                    <input type="text" placeholder=" Search..."/><FontAwesomeIcon icon={faSearch}/>
+                    <input type="text" placeholder=" Search..."/><FontAwesomeIcon icon="search"/>
                 </div>
             </div>
         </form>

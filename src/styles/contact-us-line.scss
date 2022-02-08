@@ -37,7 +37,7 @@
       }
 
       &__icon {
-        width: 70px;
+        min-width: 70px;
         height: 70px;
         display: flex;
         align-items: center;
@@ -68,6 +68,14 @@
 
   .feedback-loop__case {
     padding-bottom: 15px;
+
+    .info {
+
+      &__icon {
+        min-width: 60px;
+        min-height: 60px;
+      }
+    }
 
     &:last-child {
       padding-top: 0;

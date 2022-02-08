@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import HeaderNav from "../../shared/header/HeaderNav";
 import Topbar from "../../shared/header/Topbar";
 import PicturesLine from "../../shared/pictures-line/PicturesLine";

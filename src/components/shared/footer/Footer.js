@@ -2,8 +2,6 @@ import React from 'react';
 import ContainerLines from '../container-lines/ContainerLine'
 import FooterFloor from "./FooterFloor";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faPhoneAlt} from '@fortawesome/free-solid-svg-icons'
-import {faFacebook, faTwitter, faPinterest, faInstagram, faGoogle} from '@fortawesome/free-brands-svg-icons';
 import {NavLink} from "react-router-dom";
 
 function Footer() {
@@ -23,15 +21,15 @@ function Footer() {
                             readable.</p>
                         <div className="logo-media">
                             <a href="https://www.facebook.com/" target="_blank">
-                                <FontAwesomeIcon icon={faFacebook}/></a>
+                                <FontAwesomeIcon icon={['fab', 'facebook']}/></a>
                             <a href="https://twitter.com/" target="_blank">
-                                <FontAwesomeIcon icon={faTwitter}/></a>
+                                <FontAwesomeIcon icon={['fab', 'twitter']}/></a>
                             <a href="https://www.instagram.com/" target="_blank">
-                                <FontAwesomeIcon icon={faInstagram}/></a>
+                                <FontAwesomeIcon icon={['fab', 'instagram']}/></a>
                             <a href="https://ru-ru.facebook.com/" target="_blank">
-                                <FontAwesomeIcon icon={faPinterest}/></a>
+                                <FontAwesomeIcon icon={['fab', 'pinterest']}/></a>
                             <a href="https://www.google.ru/" target="_blank">
-                                <FontAwesomeIcon icon={faGoogle}/></a>
+                                <FontAwesomeIcon icon={['fab', 'google']}/></a>
                         </div>
                     </div>
                     <div className="col-md-4 col-xl-3 footer__content-services">
@@ -59,7 +57,7 @@ function Footer() {
                         <p>Get The Latest Updates via email.
                             <br/>
                             Any time you may unsubscribe</p>
-                        <a href=""><FontAwesomeIcon icon={faPhoneAlt}/><span>360-779-2228</span></a>
+                        <a href=""><FontAwesomeIcon icon="phone-alt"/><span>360-779-2228</span></a>
                     </div>
                 </div>
                 <div><FooterFloor/></div>
