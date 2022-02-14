@@ -29,6 +29,7 @@ function HeaderNav(props) {
                                         <li><NavLink to="/">Home</NavLink></li>
                                         <li><a href="#">FAQ</a></li>
                                         <li><NavLink to='/contact'> Contact Us </NavLink></li>
+                                        <li><NavLink to='/doctors'> Doctors </NavLink></li>
                                     </ul>
                                 </div>
                             </div>
