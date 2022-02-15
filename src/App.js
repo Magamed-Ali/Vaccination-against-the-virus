@@ -15,26 +15,28 @@ function App() {
 
     return (
         <div>
-           <Routes>
-               <Route path='/' exact element={
-                   <Home isOpened={modal}
-                         handleClick={handleClick}
-                         navigationStatus={navigationStatus = true}/>}/>
+            <Routes>
+                <Route path='/' exact element={
+                    <Home isOpened={modal}
+                          handleClick={handleClick}
+                          navigationStatus={navigationStatus = true}/>}/>
 
-               <Route path='/*' exact element={
+                {/*<Route path='/*' exact element={
                    <Home isOpened={modal}
                          handleClick={handleClick}
-                         navigationStatus={navigationStatus = true}/>}/>
+                         navigationStatus={navigationStatus = true}/>}/>*/}
+
+                <Route path='/doctors' element={
+                    <Doctors isOpened={modal}
+                             handleClick={handleClick}
+                             navigationStatus={navigationStatus = false}/>}/>}
 
                 <Route path='/contact' element={
                     <ContactUs isOpened={modal}
                                handleClick={handleClick}
                                navigationStatus={navigationStatus = false}/>}/>}
 
-               <Route path='/doctors' element={
-                   <Doctors isOpened={modal}
-                              handleClick={handleClick}
-                              navigationStatus={navigationStatus = false}/>}/>}
+
             </Routes>
             <ScrollToTop/>
         </div>

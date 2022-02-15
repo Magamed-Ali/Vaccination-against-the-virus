@@ -1,0 +1,96 @@
+
+.doctor {
+  padding: 12px;
+  background: #fff;
+}
+
+.doctor__wrapper {
+  border: 1px solid #ebf2f3;
+  min-height: 520px;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: .3s;
+
+  &-image {
+    padding: 0;
+    width: 100%;
+    border-radius: 5px;
+
+    img {
+      max-width: 100%;
+      transition: .3s;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  &-detail {
+    position: relative;
+    width: 100%;
+    padding: 30px;
+    background: #fff;
+    transition: .4s;
+
+    h5 {
+
+      a {
+        color: $footer-h6;
+        transition: 0.3s;
+
+        &:hover {
+          color: $h5-hover;
+        }
+      }
+    }
+
+    .complete {
+      font-size: 24px;
+      color: gold;
+      padding: 10px 0;
+    }
+
+    .blank {
+      font-size: 24px;
+      color: gold;
+      padding: 10px 0;
+    }
+
+    p, p a {
+      color: $footer-color-text;
+      text-transform: capitalize;
+    }
+
+    .profession {
+      margin: 5px 0 0 0;
+
+      &:hover {
+        color: $h5-hover;
+      }
+    }
+
+    .icon {
+      margin: 10px 0 0 0;
+    }
+
+    button {
+      opacity: 0;
+      transition: .4s;
+      width: 100%;
+      margin-bottom: -90px;
+    }
+  }
+
+  &:hover {
+
+    &:hover {
+      margin-top: -50px;
+
+      button {
+        opacity: 1;
+        margin: 15px 0 0 0;
+      }
+    }
+  }
+}
