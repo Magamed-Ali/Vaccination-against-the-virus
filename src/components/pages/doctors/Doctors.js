@@ -18,7 +18,6 @@ function Doctors(props) {
             </div>
             <PageTitleDoctor/>
             <PageDoctors/>
-
             <Footer/>
             <SearchModal isOpened={props.isOpened} handleClick={props.handleClick}/>
         </div>

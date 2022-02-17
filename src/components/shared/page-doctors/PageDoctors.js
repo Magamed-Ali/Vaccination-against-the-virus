@@ -6,13 +6,7 @@ function PageDoctors() {
 
     const [data, setData] = useState([]);
 
-    useEffect(() => {
-        fetch('/doctors')
-            .then(response => response.json())
-            .then(json => {
-                setData(json)
-            })
-    }, [])
+
 
     function getStatusTrue(arg) {
 
@@ -31,6 +25,14 @@ function PageDoctors() {
         }
         return item
     }
+
+    useEffect(() => {
+        fetch('/doctors')
+            .then(response => response.json())
+            .then(json => {
+                setData(json)
+            })
+    }, [])
 
     return (
         <div className="section-page-doctors">
