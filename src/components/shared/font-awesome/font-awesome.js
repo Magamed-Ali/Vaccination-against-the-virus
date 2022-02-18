@@ -3,6 +3,7 @@ import {library} from '@fortawesome/fontawesome-svg-core';
 // import your icons
 
 import {
+    faStar,
     faHospitalAlt,
     faMapMarkerAlt,
     faPhoneAlt,
@@ -28,6 +29,7 @@ import {
 
 library.add(
     fab,
+    faStar,
     faSearch,
     faArrowUp,
     faSearchLocation,
