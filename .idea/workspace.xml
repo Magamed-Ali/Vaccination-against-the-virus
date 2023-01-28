@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="abd5b1cf-3686-44c9-a7e5-d05727119fca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Heebo-VariableFont_wght.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Rubik-VariableFont_wght.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/TheNautigal-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/TheNautigal-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/doctor1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/doctor2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/doctor3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/doctor4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/doctor5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/doctor6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/home-team-banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/logo-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/slide-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/slide-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/slide-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/slide-img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/slide-img-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/subheader-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatar_doctor.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/contactUs/ContactUs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/doctors/Doctors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/home/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/contact-form/ContactForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/container-head/ContainerHead.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/container-lines/ContainerLine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/container-section/ContainerSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/container-us-lines/ContainerUsLine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/font-awesome/font-awesome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/footer/FooterFloor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/google-maps/GoogleMaps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/header/HeaderNav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/header/Topbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/page-doctors/PageDoctors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/page-title-contact/PageTitleContact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/page-title-doctors/PageTitleDoctor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/pictures-line/PicturesLine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/scroll-to-top/ScrollToTop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/search-modal/SearchModal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/card-google.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/contact-us-line.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/container-line.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/container-section.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/doctors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/footer-floor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/navigation-switch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/pictures-line.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/printing-house.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/scroll-to-top.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/search-modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button/Home/Carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button/Home/HistoryPolyclinic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button/Home/historyPol.module.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button/Home/photo/imgonline-com1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button/Home/photo/imgonline-com2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button/Home/photo/imgonline-com3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form/Form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form/form.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/fonts/quicksand-variablefont_wght-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HistoryOfVaccinated/HistoryOfVaccinated.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HistoryOfVaccinated/historyOfVaccinated.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/home.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/ContainerNavebar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/images/Pngtre.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/images/premium-icon-NAV.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/images/premium-icon-X.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/images/premium-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/navbar.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Vaccinated/Vaccinated.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Vaccinated/vaccinated.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pharmacy-logo.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25z02HJOlVjy4rjPbLdV0nnMjoQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Muhammad/Desktop/registration-for-vaccination",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Muhammad\\Desktop\\registration-for-vaccination\\node_modules\\prettier",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="abd5b1cf-3686-44c9-a7e5-d05727119fca" name="Changes" comment="" />
+      <created>1646514402977</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646514402977</updated>
+      <workItem from="1646514405602" duration="175000" />
+      <workItem from="1646567414996" duration="358000" />
+      <workItem from="1646634373124" duration="2742000" />
+      <workItem from="1655014393419" duration="3390000" />
+      <workItem from="1655062726983" duration="2612000" />
+      <workItem from="1657972807654" duration="7037000" />
+      <workItem from="1658269634425" duration="586000" />
+      <workItem from="1658603388483" duration="182000" />
+      <workItem from="1658697257929" duration="198000" />
+      <workItem from="1658697661158" duration="12000" />
+      <workItem from="1658697981370" duration="10000" />
+      <workItem from="1658698383844" duration="2101000" />
+      <workItem from="1658746649543" duration="11000" />
+      <workItem from="1658827096774" duration="18000" />
+      <workItem from="1671450773026" duration="980000" />
+      <workItem from="1674922978744" duration="565000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

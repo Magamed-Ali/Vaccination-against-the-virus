@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.module.scss';
 import App from './App';
 import {BrowserRouter} from "react-router-dom";
-import Navbar from "./components/Navbar/Navbar";
-
+import './components/shared/font-awesome/font-awesome';
+import "./styles/style.scss"
 
 ReactDOM.render(
   <React.StrictMode>
